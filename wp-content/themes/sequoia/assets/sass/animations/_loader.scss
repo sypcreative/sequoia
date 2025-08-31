@@ -1,0 +1,49 @@
+#loader-svg {
+    width: 300px;
+    height: auto;
+    transform-origin: center center;
+    transition: transform 1s ease;
+}
+
+#custom-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: $cor-secondary;
+    z-index: 9999;
+
+    &.is-loader {
+        opacity: 0;
+        pointer-events: none;
+        display: none !important;
+    }
+
+    .loader-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        width: 100vw;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .loader-text {
+        color: $cor-primary;
+        text-align: right;
+
+        &__left {
+            width: 74%;
+            text-align: left;
+        }
+
+        #loader-percent {
+            letter-spacing: 0.05em;
+        }
+    }
+}

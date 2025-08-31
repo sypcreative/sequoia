@@ -1,0 +1,21 @@
+.syp-text-cta h2,
+.syp-text-cta h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.syp-text-cta .wp-block-button__link {
+  background-color: #7aa634; /* tu verde */
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.syp-text-cta .wp-block-button__link:hover {
+  background-color: #658a2b;
+}

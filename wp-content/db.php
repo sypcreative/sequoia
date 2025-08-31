@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/tupa/wp-content/plugins/query-monitor/wp-content/db.php

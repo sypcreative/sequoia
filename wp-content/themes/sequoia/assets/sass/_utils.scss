@@ -1,0 +1,180 @@
+//  Aquí generamos nuevas clases utils o añadimos alguna funcionalidad nueva a las clases de bootstrap
+
+:root {
+  // usar la clase bg-image y llamar a este root en el style para añadir la imagen
+  --bg-image: "";
+  --bg-md-image: "";
+  --bg-porcentaje: 0.3;
+}
+
+/*  Configuración fuentes Desktop */
+
+$display-font-sizes-md: (
+  1: $cor-display-font-sizes-1-md,
+  2: $cor-display-font-sizes-2-md,
+  3: $cor-display-font-sizes-3-md,
+  4: $cor-display-font-sizes-4-md,
+  5: $cor-display-font-sizes-5-md,
+  6: $cor-display-font-sizes-6-md,
+);
+$headings-sizes-md: (
+  1: $cor-h1-font-size-md,
+  2: $cor-h2-font-size-md,
+  3: $cor-h3-font-size-md,
+  4: $cor-h4-font-size-md,
+  5: $cor-h5-font-size-md,
+  6: $cor-h6-font-size-md,
+);
+$font-sizes-md: (
+  1: $cor-font-size-base-1-md,
+  2: $cor-font-size-base-2-md,
+  3: $cor-font-size-base-3-md,
+  4: $cor-font-size-base-4-md,
+  5: $cor-font-size-base-5-md,
+  6: $cor-font-size-base-6-md,
+);
+
+@each $size, $value in $display-font-sizes-md {
+  .display-#{$size} {
+    font-family: $cor-font-family-headings;
+
+    @include media-breakpoint-up(md) {
+      font-size: $value !important;
+    }
+  }
+}
+
+@each $size, $value in $font-sizes {
+  .h#{$size},
+  h#{$size} {
+    @include title($size);
+    font-size: $value;
+  }
+}
+
+@each $size, $value in $headings-sizes-md {
+  .h#{$size},
+  h#{$size} {
+    @include media-breakpoint-up(md) {
+      font-size: $value;
+    }
+  }
+}
+
+@each $size, $value in $font-sizes-md {
+  .fs-#{$size} {
+    @include media-breakpoint-up(md) {
+      font-size: $value !important;
+    }
+  }
+}
+
+@each $size, $value in $display-font-sizes-md {
+  .display-md-#{$size} {
+    @include media-breakpoint-up(md) {
+      font-size: $value !important;
+    }
+  }
+}
+
+@each $size, $value in $font-sizes-md {
+  .fs-md-#{$size} {
+    @include media-breakpoint-up(md) {
+      font-size: $value !important;
+      text-transform: initial;
+    }
+  }
+}
+
+@each $size, $value in $headings-sizes-md {
+  .st-h#{$size} {
+    @include title($size);
+  }
+}
+
+.body {
+  font-size: $cor-font-legend !important;
+
+  @include media-breakpoint-up(md) {
+    font-size: $cor-font-body-md !important;
+  }
+}
+
+.body-md {
+  @include media-breakpoint-up(md) {
+    font-size: $cor-font-body-md !important;
+  }
+}
+
+.legend {
+  font-size: $cor-font-legend !important;
+
+  @include media-breakpoint-up(md) {
+    font-size: $cor-font-legend-md !important;
+  }
+}
+
+.legend-md {
+  @include media-breakpoint-up(md) {
+    font-size: $cor-font-legend-md !important;
+  }
+}
+
+.tag {
+  font-size: $cor-font-tag !important;
+
+  @include media-breakpoint-up(md) {
+    font-size: $cor-font-tag-md !important;
+  }
+}
+
+.jumbo {
+  font-size: 80px !important;
+
+  @include media-breakpoint-down(md) {
+    font-size: 55px !important;
+  }
+}
+
+.hero-jumbo {
+  font-size: 9vw !important;
+}
+
+.meet-us-jumbo {
+  font-size: 90px !important;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.line {
+  display: block;
+  overflow: hidden;
+}
+
+.line span {
+  display: inline-block;
+  transform: translateY(100%);
+}
+
+.z-4 {
+  z-index: 40;
+}
+
+.mt-neg-1 {
+  margin-top: -100px;
+}
+
+.mt-neg-2 {
+  margin-top: -200px;
+}
+
+.mt-neg-3 {
+  margin-top: -300px;
+}
+
+.py-navbar {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}

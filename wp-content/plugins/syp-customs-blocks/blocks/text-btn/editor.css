@@ -1,0 +1,80 @@
+/* Scope estricto al bloque en editor */
+.wp-block-syp-text-button {
+  /* neutraliza el padding de bootstrap en el editor */
+  padding: 24px !important;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* Layout interno en editor */
+.wp-block-syp-text-button .row {
+  margin: 0 !important;
+}
+.wp-block-syp-text-button .col-lg-10 {
+  padding: 0 !important;
+  max-width: 900px;
+}
+
+/* Título */
+.wp-block-syp-text-button h2.rich-text {
+  margin: 0 0 12px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+/* Repetidor */
+.wp-block-syp-text-button .syp-repeater-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 12px;
+  align-items: start;
+  padding: 12px 12px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fafafa;
+  transition: border-color 0.12s ease, background 0.12s ease;
+  margin-bottom: 10px;
+}
+.wp-block-syp-text-button .syp-repeater-item:focus-within {
+  border-color: #2271b1;
+  background: #fff;
+}
+.wp-block-syp-text-button .syp-repeater-item p.rich-text {
+  margin: 0;
+}
+
+/* Botón eliminar compacto */
+.wp-block-syp-text-button .syp-repeater-remove.components-button {
+  height: 32px;
+  min-width: 32px;
+  border-radius: 8px;
+}
+.wp-block-syp-text-button .syp-repeater-remove .components-button__content {
+  padding: 0 8px;
+}
+
+/* Botón “Añadir párrafo” */
+.wp-block-syp-text-button .syp-add {
+  margin-top: 8px;
+}
+
+/* Zona CTA */
+.wp-block-syp-text-button .syp-cta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: end;
+  margin-top: 18px;
+}
+
+/* URLInputButton popover — sin cambios globales, solo contenedor */
+.wp-block-syp-text-button .components-base-control__field label {
+  font-weight: 600;
+}
+
+/* Evita que aparezcan outlines azules enormes en toda la tarjeta */
+.wp-block-syp-text-button :focus {
+  outline-offset: 2px;
+}

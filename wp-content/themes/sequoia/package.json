@@ -1,0 +1,59 @@
+{
+  "name": "sequoia",
+  "version": "1.0.0",
+  "description": "Proyecto principal de la web de sequoia",
+  "author": ".SYP Creative",
+  "main": "index.html",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://www.sypcreative.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Automattic/_s.git"
+  },
+  "scripts": {
+    "dev": "gulp serve",
+    "prod": "cross-env NODE_ENV=prod gulp",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.19.0",
+    "bootstrap": "^5.3.3",
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.25.5",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-esbuild": "^0.14.0",
+    "gulp-if": "^3.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.7.1",
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "@barba/core": "^2.10.3",
+    "@studio-freight/lenis": "^1.0.42",
+    "@wordpress/dom-ready": "^4.26.0",
+    "bootstrap-select": "^1.14.0-beta2",
+    "bs5-lightbox": "^1.8.3",
+    "gsap": "^3.13.0",
+    "gulp-imagemin": "^7.1.0",
+    "hc-sticky": "^2.2.7",
+    "ion-rangeslider": "^2.3.1",
+    "isotope-layout": "^3.0.6",
+    "jquery-validation": "^1.20.0",
+    "jquery.marquee": "^1.6.0",
+    "split-type": "^0.3.4",
+    "three": "^0.152.2"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Automattic/_s/issues"
+  }
+}

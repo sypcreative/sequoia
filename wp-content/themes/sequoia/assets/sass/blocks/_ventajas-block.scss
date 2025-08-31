@@ -1,0 +1,30 @@
+.block-ventajas {
+  .row > div:nth-child(1) .block-ventajas__card {
+    transform: rotate(-3deg);
+  }
+
+  .row > div:nth-child(2) .block-ventajas__card {
+    transform: rotate(2deg);
+  }
+
+  .row > div:nth-child(3) .block-ventajas__card {
+    transform: rotate(-1.5deg);
+  }
+
+  .row > div:nth-child(4) .block-ventajas__card {
+    transform: rotate(3.5deg);
+  }
+
+  .row > div:nth-child(5) .block-ventajas__card {
+    transform: rotate(-2deg);
+  }
+
+  &__card {
+    height: 500px;
+  }
+  &__spacer{
+    height: 0;
+  }
+}
+
+

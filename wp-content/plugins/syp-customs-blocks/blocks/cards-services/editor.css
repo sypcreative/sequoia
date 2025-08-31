@@ -1,0 +1,146 @@
+/* ===== Scope estricto ===== */
+.wp-block-syp-cards-list {
+  padding: 24px !important;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* Título sección */
+.wp-block-syp-cards-list .syp-cards__title.rich-text {
+  margin: 0 0 16px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+/* Grid de cards */
+.wp-block-syp-cards-list .syp-cards__grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (max-width: 1100px) {
+  .wp-block-syp-cards-list .syp-cards__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 720px) {
+  .wp-block-syp-cards-list .syp-cards__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Card preview ===== */
+.wp-block-syp-cards-list .syp-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 380px;
+  padding: 24px;
+  border-radius: 26px;
+  background: #d9f7c6;
+  border: 1px solid #d9f7c6;
+}
+.wp-block-syp-cards-list .syp-card--solid {
+  background: #66cc4a;
+  border-color: #66cc4a;
+  color: #0a0a0a;
+}
+
+/* Cabecera (título + selector estilo) */
+.wp-block-syp-cards-list .syp-card__head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.wp-block-syp-cards-list .syp-card__title-input input {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.05;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+}
+.wp-block-syp-cards-list .syp-card__title-input input:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #2271b1;
+}
+.wp-block-syp-cards-list .syp-card__variant .components-base-control__label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+/* ===== Lista de ítems (sin bullets y sin cajas feas) ===== */
+.wp-block-syp-cards-list .syp-card__list {
+  margin-top: auto;
+  display: grid;
+  gap: 12px;
+}
+
+/* quita bullets */
+.wp-block-syp-cards-list .syp-card__bullet {
+  display: none !important;
+}
+
+/* cada item = texto plano + botones a la derecha */
+.wp-block-syp-cards-list .syp-card__item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: start;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+/* textarea → aspecto “texto” */
+.wp-block-syp-cards-list .syp-card__text-input textarea {
+  width: 100%;
+  min-height: 40px;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0;
+  resize: none; /* sin redimensionar */
+  font-size: 18px;
+  line-height: 1.45;
+}
+.wp-block-syp-cards-list .syp-card__text-input textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #2271b1 !important; /* subrayado al foco */
+}
+
+/* acciones (↑ ↓ eliminar) compactas */
+.wp-block-syp-cards-list .syp-card__item-actions {
+  display: flex;
+  gap: 6px;
+}
+.wp-block-syp-cards-list .syp-card__item-actions .components-button {
+  height: 28px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+/* pie (mover/eliminar card) */
+.wp-block-syp-cards-list .syp-card__foot {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+/* botón añadir item */
+.wp-block-syp-cards-list .syp-add {
+  margin-top: 6px;
+}
+
+/* accesibilidad */
+.wp-block-syp-cards-list :focus {
+  outline-offset: 2px;
+}

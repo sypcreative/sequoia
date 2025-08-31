@@ -1,0 +1,54 @@
+.syp-cards {
+  padding: 40px 0;
+}
+
+.syp-cards__title {
+  margin: 0 0 28px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.syp-cards__grid {
+  display: grid;
+  gap: clamp(16px, 2vw, 28px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .syp-cards__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.syp-card {
+  border-radius: 28px;
+  padding: clamp(18px, 2.2vw, 28px);
+  min-height: 540px;
+  background: #d9f7c6;
+  border: 1px solid #d9f7c6;
+}
+.syp-card--solid {
+  background: #66cc4a;
+  border-color: #66cc4a;
+}
+
+.syp-card__title {
+  line-height: 1.05;
+  margin: 0 0 auto;
+}
+
+.syp-card__ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.syp-card--solid .syp-card__bullet {
+  background: #0a0a0a;
+}
+.syp-card__text {
+  font-size: clamp(16px, 1.2vw, 18px);
+  line-height: 1.5;
+}

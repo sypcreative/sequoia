@@ -1,0 +1,18 @@
+{
+  "apiVersion": 3,
+  "name": "syp/title-text-button",
+  "title": "Title + Text + Button Block",
+  "category": "sequoia-home",
+  "icon": "format-image",
+  "description": "Title followed by Text and CTA button.",
+  "supports": { "html": false },
+  "style": "file:./style.css",
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php",
+  "editorStyle": "file:./editor.css",
+  "attributes": {
+    "paragraphs": { "type": "array", "default": [] },
+    "buttonText": { "type": "string", "default": "" },
+    "buttonUrl": { "type": "string", "default": "" }
+  }
+}

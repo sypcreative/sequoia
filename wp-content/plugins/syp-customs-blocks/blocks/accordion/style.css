@@ -1,0 +1,122 @@
+/* Cabecera: título + CTA(s) a la derecha */
+.syp-why__lead,
+.syp-why .syp-why__head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 16px 24px;
+  margin-bottom: clamp(16px, 3vw, 32px);
+}
+.syp-why__title {
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.05;
+}
+.syp-why__intro {
+  margin: 8px 0 0;
+  color: #222;
+}
+
+/* CTA pill */
+.syp-why__cta-wrap {
+  margin: 0;
+}
+.syp-why__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 18px;
+  background: #7fb13a;
+  color: #fff;
+  text-decoration: none;
+}
+.syp-why__btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(127, 177, 58, 0.32);
+}
+.syp-why__btn:active {
+  transform: none;
+  box-shadow: 0 4px 12px rgba(127, 177, 58, 0.22);
+}
+
+/* Si usas un botón de icono separado (flecha redonda) */
+.syp-why__btn--icon {
+  --size: 44px;
+  width: var(--size);
+  height: var(--size);
+  padding: 0;
+  border-radius: 999px;
+  justify-content: center;
+}
+
+/* ===== Acordeón ===== */
+.syp-why__accordion {
+  margin-top: clamp(8px, 2vw, 12px);
+}
+
+/* Eliminar marcador nativo de summary */
+.syp-why__panel summary {
+  list-style: none;
+}
+.syp-why__panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.syp-why__panel {
+  border-bottom: 1px solid #171717; /* línea divisoria como en el mock */
+  padding: clamp(18px, 3vw, 28px) 0;
+}
+
+/* Fila principal: texto a la izquierda, icono a la derecha */
+.syp-why__summary {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  margin: 0;
+}
+.syp-why__summary-text {
+  font-weight: 600;
+  line-height: 1.1;
+}
+.syp-why__summary-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Contenido (cuando hay texto) */
+.syp-why__content {
+  padding-top: 10px;
+}
+.syp-why__content p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===== Temas claros/oscuros (opcional) ===== */
+.syp-why--theme-dark .syp-why__title,
+.syp-why--theme-dark .syp-why__summary-text {
+  color: #f5f5f5;
+}
+.syp-why--theme-dark .syp-why__panel {
+  border-bottom-color: #eee;
+}
+.syp-why--theme-dark .syp-why__intro {
+  color: #ddd;
+}
+
+/* ===== Responsivo ===== */
+@media (max-width: 900px) {
+  .syp-why__lead,
+  .syp-why .syp-why__head {
+    grid-template-columns: 1fr;
+  }
+  .syp-why__cta-wrap {
+    justify-self: start;
+  }
+}

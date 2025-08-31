@@ -1,0 +1,254 @@
+{
+    "key": "group_685572ab0ccef",
+    "title": "Block Quienes Somos",
+    "fields": [
+        {
+            "key": "field_685572abc8fc7",
+            "label": "Subtítulo",
+            "name": "block_quienes_somos_subtitulo",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Subtítulo de la sección, aparece por encima del título de la sección en un tamaño de letra menor y otra tipografía.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "QUIÉNES SOMOS",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_685573a0c8fc8",
+            "label": "Título",
+            "name": "block_quienes_somos_titulo",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_685573cdc8fc9",
+            "label": "Introducción",
+            "name": "block_quienes_somos_introduccion",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Introducción de quiénes somos",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_685573f4c8fca",
+            "label": "Imagen + Texto",
+            "name": "block_quienes_somos_repeater",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Agregar Fila",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_6855748ac8fcb",
+                    "label": "Imagen",
+                    "name": "block_quienes_somos_repeater_imagen",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_685573f4c8fca"
+                },
+                {
+                    "key": "field_685574c1c8fcc",
+                    "label": "Texto",
+                    "name": "block_quienes_somos_repeater_texto",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_685573f4c8fca"
+                },
+                {
+                    "key": "field_68557d9dc3fa8",
+                    "label": "Posición del texto",
+                    "name": "block_quienes_somos_repeater_posicion",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "Seleccionar la posición del texto en referencia a la imagen.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top": "Arriba",
+                        "bottom": "Abajo",
+                        "left": "Izquierda",
+                        "right": "Derecha"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "parent_repeater": "field_685573f4c8fca"
+                },
+                {
+                    "key": "field_68558f32871ef",
+                    "label": "Posición del texto (Arriba o abajo)",
+                    "name": "block_quienes_somos_repeater_posicion_top_bottom",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "Seleccionar si el texto debe situarse alineado con la imagen arriba o abajo.",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_68557d9dc3fa8",
+                                "operator": "==",
+                                "value": "left"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_68557d9dc3fa8",
+                                "operator": "==",
+                                "value": "right"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top": "Arriba",
+                        "bottom": "Abajo"
+                    },
+                    "default_value": "top",
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "parent_repeater": "field_685573f4c8fca"
+                },
+                {
+                    "key": "field_6855901ddf258",
+                    "label": "Peso de la tipografía",
+                    "name": "block_quienes_somos_repeater_weight",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "Seleccionar si se quiere la tipografía en su peso regular, o bold, si se selecciona bold el texto aparecerá en mayúsculas.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "light": "Regular",
+                        "bold": "Bold"
+                    },
+                    "default_value": "light",
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "parent_repeater": "field_685573f4c8fca"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/block-quienes-somos"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1750438001
+}

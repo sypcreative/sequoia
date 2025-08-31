@@ -1,0 +1,22 @@
+/* --- Contact block --- */
+
+.block-hero-nosotros {
+  .magnetic-badge {
+    transition: transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    will-change: transform;
+  }
+
+  .badge {
+    position: absolute;
+
+    &:nth-child(2) {
+      right: 10%;
+      top: 45%;
+    }
+
+    &:nth-child(3) {
+      right: 55%;
+      top: 56%;
+    }
+  }
+}

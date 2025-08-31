@@ -1,0 +1,26 @@
+{
+  "apiVersion": 3,
+  "name": "syp/hero",
+  "title": "Hero Block",
+  "category": "sequoia-home",
+  "icon": "format-image",
+  "description": "Hero flexible con imagen a 100% o 50%, texto izquierda/derecha y tema claro/oscuro",
+  "supports": { "html": false },
+  "attributes": {
+    "title":    { "type": "string", "default": "" },
+    "subtitle": { "type": "string", "default": "" },
+    "imageId":  { "type": "number", "default": 0 },
+    "imageUrl": { "type": "string", "default": "" },
+    "mobileImageId": { "type": "number", "default": 0 },
+    "mobileImageUrl": { "type": "string", "default": "" },
+    "overlay":  { "type": "boolean", "default": true },
+
+    "layout":   { "type": "string", "default": "split" },   
+    "textPos":  { "type": "string", "default": "right" },   
+    "theme":    { "type": "string", "default": "light" }  
+  },
+  "style": "file:./style.css",
+  "editorScript": "file:./edit.js",
+  "editorStyle": "file:./editor.css",
+  "render": "file:./render.php"
+}

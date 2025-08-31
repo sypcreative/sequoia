@@ -1,0 +1,54 @@
+// FONTS
+
+// Se deben sustituir los  ";" en las urls por "%3b"  para que al minificar no de problema
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Raleway:ital,wght@0,100%3b0,300%3b0,400%3b0,500%3b0,700%3b0,800%3b0,900%3b1,100%3b1,200%3b1,300%3b1,400%3b1,500%3b1,600%3b1,700%3b1,800%3b1,900&display=swap");
+@import "fonts";
+// @import "node_modules/font-awesome/css/font-awesome.min.css";
+
+// Funciones para SASS
+@import "functions";
+// Variables generales y overrides de las de bootstrap
+@import "bootstrap-variables";
+@import "mixins";
+
+// Para especificar las clases de Bootstrap que queremos cargar
+@import "bootstrap-loads";
+
+// Utilidades extra estilo bootstrap
+@import "utils";
+
+// Plugins
+@import "node_modules/bootstrap-select/sass/bootstrap-select";
+
+// Utilidades y estilos generales
+@import "general";
+
+// Overrides
+@import "overrides/buttons";
+@import "overrides/navs";
+@import "overrides/woocommerce";
+@import "overrides/form-control";
+@import "overrides/containers";
+
+// Partials
+@import "partials/icons";
+@import "partials/social";
+@import "partials/footer";
+
+// Blocks
+@import "blocks/contact-block";
+@import "blocks/quienes-somos-block";
+@import "blocks/ventajas-block";
+@import "blocks/quote-block";
+@import "blocks/animated-banner";
+@import "blocks/about-cards-block";
+@import "blocks/hero-nosotros-block";
+@import "blocks/hero-home-block";
+
+// Animations
+@import "animations/three";
+@import "animations/loader";
+@import "animations/lenis";
+
+// Utils
+@import "utils/categories";

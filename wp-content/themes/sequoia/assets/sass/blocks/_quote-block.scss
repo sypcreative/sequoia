@@ -1,0 +1,37 @@
+
+.block-quote {
+
+  .quote-img {
+    transition: transform 0.5s ease;
+    pointer-events: none;
+
+    &[data-quote-img="0"] {
+      top: 10%;
+      left: 5%;
+      width: 180px;
+      height: 250px;
+    }
+
+    &[data-quote-img="1"] {
+      top: 20%;
+      right: 10%;
+      width: 180px;
+      height: 250px;
+    }
+
+    &[data-quote-img="2"] {
+      bottom: 15%;
+      left: 20%;
+      width: 180px;
+      height: 250px;
+    }
+
+    &[data-quote-img="3"] {
+      bottom: 5%;
+      right: 15%;
+      width: 180px;
+      height: 250px;
+    }
+
+  }
+}

@@ -1,0 +1,9 @@
+.about-cards-block {
+  &__card {
+    min-height: 550px;
+
+    @include media-breakpoint-down(md) {
+      min-height: 300px;
+    }
+  }
+}

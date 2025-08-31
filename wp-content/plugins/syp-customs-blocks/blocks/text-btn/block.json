@@ -1,0 +1,18 @@
+{
+  "apiVersion": 3,
+  "name": "syp/text-button",
+  "title": "Text + Button Block",
+  "category": "sequoia-home",
+  "icon": "format-image",
+  "description": "Text + CTA con múltiples párrafos (repetidor).",
+  "supports": { "html": false },
+  "style": "file:./style.css",
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php",
+  "editorStyle": "file:./editor.css",
+  "attributes": {
+    "paragraphs": { "type": "array", "default": [] },
+    "buttonText": { "type": "string", "default": "" },
+    "buttonUrl": { "type": "string", "default": "" }
+  }
+}

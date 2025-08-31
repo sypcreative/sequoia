@@ -1,0 +1,81 @@
+{
+    "key": "group_6845993ef3913",
+    "title": "Block banner",
+    "fields": [
+        {
+            "key": "field_6845993f4bef2",
+            "label": "Banner Text",
+            "name": "block_banner_text",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Texto que aparece en la tipografía corporativa (TUMB) centrado dentro del bloque.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6845997b4bef3",
+            "label": "Descripción",
+            "name": "block_banner_description",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Opcional. Texto opcional que aparece en menor tamaño debajo del título y en una tipografía diferente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_684599ab4bef4",
+            "label": "Boton",
+            "name": "block_banner_cta",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "Opcional. Botón opcional para poder añadir un enlace a la página de login, registro, newsletter...",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/block-banner"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1749392171
+}

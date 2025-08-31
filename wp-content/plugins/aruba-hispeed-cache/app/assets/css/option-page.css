@@ -1,0 +1,37 @@
+.clearfix {}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.form-table th,
+.form-wrap label {
+	vertical-align: middle;
+}
+
+.form-table th {
+	width: 25% !important;
+}
+
+.ahsc-options-wrapper tr td label {
+	width: 100%;
+}
+
+.ahsc-options-wrapper h2,
+.ahsc-options-wrapper h3 {
+	color: #1d2327 !important;
+	font-size: 1.3em !important;
+	margin: 1em 0 !important;
+	padding: 8px 12px 8px 0px !important;
+}
+
+small::before {
+	content: "\a";
+	white-space: pre;
+}

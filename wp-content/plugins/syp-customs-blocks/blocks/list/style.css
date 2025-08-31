@@ -1,0 +1,43 @@
+.syp-list {
+  padding: 40px 0;
+}
+.syp-list .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.syp-list__title {
+  margin: 0 0 20px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.syp-list__ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 22px;
+  max-width: 1100px;
+}
+.syp-list__li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: start;
+  column-gap: 18px;
+}
+
+.syp-list__icon {
+  display: inline-flex;
+  width: 26px;
+  height: 26px;
+  line-height: 1;
+}
+.syp-list__icon svg {
+  display: block;
+}
+
+.syp-list__text {
+  display: block;
+  font-size: clamp(18px, 1.8vw, 28px);
+  line-height: 1.25;
+}

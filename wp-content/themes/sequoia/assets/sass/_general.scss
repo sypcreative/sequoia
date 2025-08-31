@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  // Para eliminar del front el mensaje de que estamos en un sitio de desarrollo generado por WPML
+  .otgs-development-site-front-end {
+    display: none;
+  }
+}
+
+main {
+  overflow: clip; // funciona como un hidden pero puedes añadir sticky en los hijos
+}
+
+a {
+  color: $cor-black;
+  text-decoration: none;
+
+  // &:hover {
+  //   --#{$prefix}link-color-rgb: var(--#{$prefix}link-hover-color-rgb);
+  //   text-decoration: $link-hover-decoration;
+  // }
+}
+
+footer {
+  margin-top: auto;
+}
+
+.century {
+  font-family: centurygothic !important;
+}
+
+.banner-cerveza,
+.block-meet-us {
+  &__description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #fed24d;
+  }
+
+  &__cta {
+    background: #ff0084;
+    color: white;
+    font-weight: bold;
+    padding: 0.75em 2em;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background 0.3s;
+
+    &:hover {
+      background: #e60073;
+    }
+  }
+}
+
+.col-4 h2 {
+  /* Permite partir palabras si no caben */
+  overflow-wrap: break-word;
+  /* estándar moderno */
+  word-break: break-all;
+  /* más agresivo, pero garantiza que no desborde */
+
+  /* Asegura que, si caben, use varias líneas */
+  white-space: normal;
+}
+
+[data-anim="lines"] {
+  overflow: hidden;
+  visibility: hidden;
+  /* se activa vía JS */
+}
+
+.line\+\+ {
+  overflow: hidden;
+}
+
+.line\+\+ > span {
+  transform: translateY(100%);
+}
+
+/* ——— PARA REVELAR EL FOOTER ——— */
+:root {
+  /* desfase inicial: cámbialo a tu gusto */
+  --footer-shift: 100px;
+}
+
+#page {
+  position: relative;
+  z-index: 1;
+  margin-bottom: var(--footer-h, 0px);
+}
+
+.barba-transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #202020; /* o el color que quieras */
+  z-index: 9999999999999999999999;
+  transform: translateY(-100%);
+  pointer-events: none;
+  will-change: transform;
+}

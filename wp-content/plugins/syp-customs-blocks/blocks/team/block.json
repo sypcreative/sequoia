@@ -1,0 +1,49 @@
+{
+  "apiVersion": 3,
+  "name": "syp/team-grid",
+  "title": "Team Grid",
+  "category": "sequoia-home",
+  "icon": "groups",
+  "description": "Heading + intro y grid de cards de equipo (foto, nombre, cargo, email).",
+  "style": "file:./style.css",
+  "editorStyle": "file:./editor.css",
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php",
+  "supports": {
+    "html": false,
+    "align": false,
+    "color": {
+      "background": false,
+      "text": false,
+      "link": false,
+      "gradients": false
+    },
+    "spacing": { "padding": false, "margin": false },
+    "typography": {
+      "fontSize": false,
+      "lineHeight": false,
+      "fontStyle": false,
+      "fontWeight": false,
+      "letterSpacing": false,
+      "textTransform": false
+    }
+  },
+  "attributes": {
+    "heading": { "type": "string", "default": "" },
+    "intro": { "type": "string", "default": "" },
+    "people": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "default": "" },
+          "role": { "type": "string", "default": "" },
+          "email": { "type": "string", "default": "" },
+          "imageUrl": { "type": "string", "default": "" }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

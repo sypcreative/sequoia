@@ -1,0 +1,47 @@
+.wp-block-syp-list {
+  padding: 24px !important;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.wp-block-syp-list .syp-list__title.rich-text {
+  margin: 0 0 16px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.wp-block-syp-list .syp-list__items {
+  display: grid;
+  gap: 10px;
+  max-width: 1000px;
+}
+.wp-block-syp-list .syp-list__item {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  gap: 12px;
+  align-items: start;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fafafa;
+}
+.wp-block-syp-list .syp-list__item:focus-within {
+  background: #fff;
+  border-color: #2271b1;
+}
+.wp-block-syp-list .syp-list__icon {
+  font-size: 18px;
+  line-height: 1;
+  padding-top: 6px;
+}
+.wp-block-syp-list .syp-list__text-input textarea {
+  min-height: 48px;
+}
+.wp-block-syp-list .syp-list__actions .components-button {
+  font-size: 13px;
+}
+.wp-block-syp-list :focus {
+  outline-offset: 2px;
+}

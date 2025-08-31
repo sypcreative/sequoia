@@ -1,0 +1,116 @@
+.wp-block-syp-products-pills {
+  padding: 24px !important;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* lead */
+.wp-block-syp-products-pills .syp-pills__title.rich-text {
+  margin: 0 0 8px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.wp-block-syp-products-pills .syp-pills__intro.rich-text {
+  margin: 0 0 18px;
+  color: #444;
+}
+
+/* lista */
+.wp-block-syp-products-pills .syp-pills__list {
+  display: grid;
+  gap: 14px;
+}
+
+/* pill */
+.wp-block-syp-products-pills .syp-pill {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 16px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 22px;
+  background: #d9f7c6;
+  border: 1px solid #d9f7c6;
+}
+.wp-block-syp-products-pills .syp-pill--solid {
+  background: #66cc4a;
+  border-color: #66cc4a;
+  color: #0a0a0a;
+}
+
+/* izquierda (icon+title) */
+.wp-block-syp-products-pills .syp-pill__left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.wp-block-syp-products-pills .syp-pill__icon img {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+.wp-block-syp-products-pills .syp-pill__icon-ph {
+  width: 28px;
+  height: 28px;
+  border: 2px solid currentColor;
+  border-radius: 6px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+}
+.wp-block-syp-products-pills .syp-pill__title-input input {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.05;
+}
+.wp-block-syp-products-pills .syp-pill__title-input input:focus {
+  border-bottom: 2px solid #2271b1;
+  outline: none;
+}
+
+/* descripción como texto plano */
+.wp-block-syp-products-pills .syp-pill__desc-input textarea {
+  min-height: 48px;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  resize: none;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.wp-block-syp-products-pills .syp-pill__desc-input textarea:focus {
+  border-bottom: 2px solid #2271b1 !important;
+  outline: none;
+}
+
+/* herramientas */
+.wp-block-syp-products-pills .syp-pill__tools {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.wp-block-syp-products-pills .syp-pill__arrows .components-button {
+  height: 28px;
+  padding: 0 8px;
+}
+.wp-block-syp-products-pills .syp-add {
+  margin-top: 6px;
+}
+
+/* responsive editor */
+@media (max-width: 900px) {
+  .wp-block-syp-products-pills .syp-pill {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .wp-block-syp-products-pills .syp-pill__tools {
+    justify-content: flex-start;
+  }
+}

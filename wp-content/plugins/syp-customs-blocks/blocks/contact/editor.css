@@ -1,0 +1,45 @@
+.wp-block-syp-contact-cta {
+  padding: 24px !important;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+.wp-block-syp-contact-cta .container.grid,
+.wp-block-syp-contact-cta .syp-contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 520px;
+  gap: 32px;
+}
+@media (max-width: 980px) {
+  .wp-block-syp-contact-cta .syp-contact__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.wp-block-syp-contact-cta .syp-contact__title.rich-text {
+  margin: 0 0 8px;
+  font-weight: 700;
+  line-height: 1.05;
+}
+.wp-block-syp-contact-cta .syp-contact__intro.rich-text {
+  margin: 0 0 18px;
+  max-width: 720px;
+}
+
+.wp-block-syp-contact-cta
+  .syp-contact__cta
+  .components-base-control__field
+  label {
+  font-weight: 600;
+}
+
+.wp-block-syp-contact-cta .syp-contact__card .syp-card__inner,
+.wp-block-syp-contact-cta .syp-contact__card-inner {
+  background: #d9f7c6;
+  border: 1px solid #d9f7c6;
+  border-radius: 24px;
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+}

@@ -1,0 +1,254 @@
+# Translation of Plugins - Database Cleaner: Clean, Optimize &amp; Repair - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Database Cleaner: Clean, Optimize &amp; Repair - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-19 18:56:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Database Cleaner: Clean, Optimize &amp; Repair - Stable (latest release)\n"
+
+#: classes/rest.php:569
+msgid "Missing the meta item(s) parameter."
+msgstr "Faltan el parámetro del metaelemento."
+
+#: classes/rest.php:927 classes/rest.php:965
+msgid "Missing item and query parameters. Either is required."
+msgstr "Faltan elementos y parámetros de consulta. Cualquiera de los dos es necesario."
+
+#: classes/background.php:55 app/i18n.js:189
+msgid "Every 30 Minutes"
+msgstr "Cada 30 minutos"
+
+#: classes/background.php:51 app/i18n.js:188
+msgid "Every 10 Minutes"
+msgstr "Cada 10 minutos"
+
+#: classes/background.php:47 app/i18n.js:187
+msgid "Every 5 Minutes"
+msgstr "Cada 5 minutos"
+
+#: classes/background.php:72
+msgid "Unknown error."
+msgstr "Error desconocido."
+
+#: classes/background.php:65 classes/rest.php:289 classes/rest.php:298
+msgid "Feature is not available."
+msgstr "Característica no disponible."
+
+#: classes/rest.php:583
+msgid "Can not delete the meta"
+msgstr "No se puede borrar la meta"
+
+#: classes/rest.php:547
+msgid "Missing the meta id parameter."
+msgstr "Falta el parámetro de id de meta."
+
+#: classes/rest.php:520 classes/rest.php:544 classes/rest.php:564
+msgid "Invalid meta table."
+msgstr "Tabla de meta no válida."
+
+#: classes/rest.php:987
+msgid "Not found the query for deleting."
+msgstr "No se encontró la consulta para borrar."
+
+#: classes/rest.php:982
+msgid "Cannot call this custom query due to its clean style."
+msgstr "No se puede llamar a esta consulta personalizada debido a su estilo limpio."
+
+#: classes/rest.php:939
+msgid "Not found the query for count."
+msgstr "No se encontró la consulta para contar."
+
+#: classes/rest.php:907
+msgid "Some tables could not be repaired"
+msgstr "No se han podido reparar algunas tablas"
+
+#: classes/rest.php:890
+msgid "Cannot repair tables"
+msgstr "No se pueden reparar las tablas"
+
+#: classes/rest.php:859
+msgid "Some tables could not be optimized"
+msgstr "No se han podido optimizar algunas tablas"
+
+#: classes/rest.php:842
+msgid "Cannot optimize tables"
+msgstr "No se pueden optimizar las tablas"
+
+#: classes/rest.php:806
+msgid "Invalid table name."
+msgstr "Nombre de la tabla no válido."
+
+#: classes/rest.php:803
+msgid "Missing table parameters."
+msgstr "Faltan parámetros de tabla."
+
+#: classes/rest.php:783 classes/rest.php:859 classes/rest.php:907
+msgid "(logged the detail in PHP Error Logs.)"
+msgstr "(registrar los detalles en los registros de errores de PHP.)"
+
+#: classes/rest.php:783
+msgid "Some tables could not be deleted"
+msgstr "No se han podido borrar algunas tablas"
+
+#: classes/rest.php:766
+msgid "Cannot delete tables"
+msgstr "No se pueden borrar las tablas"
+
+#: classes/rest.php:746 classes/rest.php:830 classes/rest.php:878
+msgid "Missing tables parameters."
+msgstr "Faltan parámetros de tablas."
+
+#: classes/rest.php:712
+msgid "Cannot delete this entry due to its clean style."
+msgstr "No se puede borrar esta entrada debido a tu estilo limpio."
+
+#: classes/core.php:218 classes/rest.php:666 classes/rest.php:693
+msgid "This item does not exists."
+msgstr "Este articulo no existe."
+
+#: classes/rest.php:662 classes/rest.php:678 classes/rest.php:707
+msgid "Missing item parameters."
+msgstr "Faltan parámetros de elementos."
+
+#: classes/rest.php:631
+msgid "Can not delete the crons"
+msgstr "No se pueden borrar las tareas"
+
+#: classes/rest.php:619
+msgid "Missing a cron name parameter."
+msgstr "Falta un parámetro de nombre de tarea."
+
+#: classes/rest.php:497
+msgid "Missing an option name or autoload value parameter."
+msgstr "Falta un nombre de opción o un parámetro de valor de carga automática."
+
+#: classes/rest.php:464
+msgid "Can not delete the options"
+msgstr "No se pueden borrar las opciones"
+
+#: classes/rest.php:452
+msgid "Missing an option name parameter."
+msgstr "Falta un parámetro de nombre de opción."
+
+#: classes/rest.php:434
+msgid "Missing the option name parameter."
+msgstr "Falta el parámetro de nombre de opción."
+
+#: common/ratings.php:107
+msgid "Hide"
+msgstr "Ocultar"
+
+#: common/ratings.php:93
+msgid "✌️ Done!"
+msgstr "✌️ ¡Hecho!"
+
+#: common/ratings.php:83
+msgid "<h2 style=\"margin: 0\" class=\"title\">You have been using <b>%1$s</b> for some time now. Thank you! 💕</h2><p>If you have a minute, can you write a <b><a target=\"_blank\" href=\""
+msgstr "<h2 style=\"margin: 0\" class=\"title\">Has estado usando <b>%1$s</b> desde hace algún tiempo. ¡Gracias! 💕</h2><p>Si tienes un minuto, ¿puedes escribir un <b><a target=\"_blank\" href=\""
+
+#: common/news.php:96
+msgid "❌ Delete"
+msgstr "❌ Borrar"
+
+#: common/news.php:87
+msgid "👉 AI Engine at WordPress.org"
+msgstr "👉 Motor de IA en WordPress.org"
+
+#: common/news.php:82
+msgid "<p style=\"font-size: 14px;\">Since the end of 2022, I worked a lot to craft <b>the perfect AI plugin for WordPress</b>. Since March 2023, it's perfectly stable and packed with features. You'll get chatbots, AI forms, easy model training, content and images generation, a template system that will allow you to create your personal assistants for various tasks and much more! Here it is: <a href=\"%s\" target=\"_blank\">AI Engine</a>. Believe me, you will enjoy this. Have fun, and let me know how it goes! 🥳</p>"
+msgstr "<p style=\"font-size: 14px;\">Desde finales de 2022, trabajé mucho para crear <b>el plugin de IA perfecto para WordPress</b>. A partir de marzo de 2023, es perfectamente estable y está repleto de características. ¡Obtendrás chatbots, formularios de IA, entrenamiento sencillo de modelos, generación de contenido e imágenes, un sistema de plantillas que te permitirá crear tus asistentes personales para diversas tareas y mucho más! Aquí está: <a href=\"%s\" target=\"_blank\">Motor de IA</a>. Créeme, disfrutarás de esto. ¡Diviértete y cuéntame cómo te va! 🥳</p>"
+
+#: common/news.php:79
+msgid "<h2 style=\"margin: 0 0 10px 0\" class=\"title\">AI Engine by Meow Apps: The Power of AI into WordPress 💫</h2>"
+msgstr "<h2 style=\"margin: 0 0 10px 0\" class=\"title\">Motor de IA de Meow Apps: El poder de la IA en WordPress 💫</h2>"
+
+#. Description of the plugin
+#: database-cleaner.php
+msgid "Not only does Database Cleaner have a user-friendly UI, but it's also equipped to handle large DBs, giving it an edge over other plugins. Plus, it has a range of features that make it easy to repair and optimize your database for top performance!"
+msgstr "Database Cleaner no solo tiene una IU fácil de usar, sino que también está equipado para manejar bases de datos grandes, lo que te da una ventaja sobre otros plugins. ¡Además, tiene una variedad de características que facilitan la reparación y optimización de tu base de datos para obtener el máximo rendimiento!"
+
+#. Plugin Name of the plugin
+#: database-cleaner.php
+msgid "Database Cleaner: Clean, Optimize & Repair"
+msgstr "Database Cleaner: Clean, Optimize & Repair"
+
+#: classes/core.php:80
+msgid "Database Cleaner Fake Taxonomy"
+msgstr "Taxonomía falsa del limpiador de bases de datos"
+
+#: classes/core.php:79
+msgid "Database Cleaner Fake Taxonomies"
+msgstr "Taxonomías falsas del limpiador de bases de datos"
+
+#: classes/core.php:62
+msgid "Database Cleaner Fake Post"
+msgstr "Entrada falsa del limpiador de base de datos"
+
+#: classes/core.php:61
+msgid "Database Cleaner Fake Posts"
+msgstr "Entradas falsas del limpiador de base de datos"
+
+#: common/news.php:91 common/ratings.php:101
+msgid "⏰ Remind me later"
+msgstr "⏰ Recuérdamelo más tarde"
+
+#. translators: %1$s is the version of the interface; %2$s is a file path.
+#: common/admin.php:179
+msgid "Thanks for using <a href=\"https://meowapps.com\">Meow Apps</a>! This is the Meow Admin %1$s <br /><i>Loaded from %2$s </i>"
+msgstr "¡Gracias por usar <a href=\"https://meowapps.com\">Meow Apps</a>! Esta es la administración de Meow %1$s <br /><i>Cargada desde %2$s</i>"
+
+#: common/admin.php:144
+msgid "<label>Hide <b>Meow Apps</b> Menu</label><br /><small>Hide Meow Apps menu and all its components, for a cleaner admin. This option will be reset if a new Meow Apps plugin is installed.<br /><b>Once activated, an option will be added in your General settings to display it again.</b></small>"
+msgstr "<label>Ocultar el menú de <b>Meow Apps</b></label><br /><small>Oculta el menú de Meow Apps y todos sus componentes para una administración más limpia. Esta opción se restablecerá si se instala un nuevo plugin de Meow Apps. <br /><b>Una vez activado, se añadirá una opción en tus ajustes generales para mostrarlo de nuevo.</b></small>"
+
+#: common/admin.php:135 common/admin.php:136 app/i18n.js:9
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: common/admin.php:115
+msgid "Remove the license"
+msgstr "Eliminar la licencia"
+
+#: common/admin.php:109
+msgid "<p>It looks like you are using the free version of the plugin (<b>%s</b>) but a license for the Pro version was also found. The Pro version might have been replaced by the Free version during an update (might be caused by a temporarily issue). If it is the case, <b>please download it again</b> from the <a target=\"_blank\" href=\"https://meowapps.com\">Meow Store</a>. If you wish to continue using the free version and clear this message, click on this button."
+msgstr "<p>Parece que estás usando la versión gratuita del plugin (<b>%s</b>), pero también se ha encontrado una licencia para la versión Pro. Puede que la versión Pro haya sido reemplazada por la versión gratuita durante una actualización (podría haber sido causado por un problema temporal). Si ese es el caso, <b>por favor, descárgala de nuevo</b> desde la <a target=\"_blank\" href=\"https://meowapps.com\">tienda de Meow</a>. Si deseas seguir usando la versión gratuita y borrar este mensaje, haz clic en este botón."
+
+#: common/admin.php:78
+msgid "<a target=\"_blank\" href=\"https://meowapps.com\">Get the <u>Pro Version</u></a>"
+msgstr "<a target=\"_blank\" href=\"https://meowapps.com\">Obtén la <u>versión Pro</u></a>"
+
+#: common/admin.php:78
+msgid "License Issue"
+msgstr "Emisión de la licencia"
+
+#: common/admin.php:77
+msgid "Pro Version"
+msgstr "Versión Pro"
+
+#: common/admin.php:74
+msgid "<a href=\"admin.php?page=%s_settings\">Settings</a>"
+msgstr "<a href=\"admin.php?page=%s_settings\">Ajustes</a>"
+
+#: classes/rest.php:355
+msgid "OK"
+msgstr "Aceptar"
+
+#: classes/init.php:5
+msgid "Thanks for installing the Pro version of Database Cleaner :) However, the free version is still enabled. Please disable or uninstall it."
+msgstr "Gracias por instalar la versión Pro de Database Cleaner :) Sin embargo, la versión gratuita sigue activada. Por favor, desactívala o desinstálala."
+
+#. Author of the plugin
+#: database-cleaner.php
+msgid "Jordy Meow"
+msgstr "Jordy Meow"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: database-cleaner.php
+msgid "https://meowapps.com"
+msgstr "https://meowapps.com"

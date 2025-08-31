@@ -1,0 +1,35 @@
+{
+  "apiVersion": 3,
+  "name": "syp/contact-cta",
+  "title": "Contact CTA",
+  "category": "sequoia-home",
+  "icon": "email",
+  "description": "Título, intro y botón + tarjeta con datos de contacto (desde opciones del sitio o sobrescrito).",
+  "style": "file:./style.css",
+  "editorStyle": "file:./editor.css",
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php",
+  "supports": { "html": false, "align": false },
+  "attributes": {
+    "heading": { "type": "string", "default": "" },
+    "intro": { "type": "string", "default": "" },
+
+    "ctaText": { "type": "string", "default": "" },
+    "ctaUrl": { "type": "string", "default": "" },
+    "ctaTarget": { "type": "string", "enum": ["", "_blank"], "default": "" },
+
+    "useSiteOptions": { "type": "boolean", "default": true },
+
+    "contact": {
+      "type": "object",
+      "default": { "company": "", "address": "", "email": "", "linkedin": "" },
+      "properties": {
+        "company": { "type": "string", "default": "" },
+        "address": { "type": "string", "default": "" },
+        "email": { "type": "string", "default": "" },
+        "linkedin": { "type": "string", "default": "" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

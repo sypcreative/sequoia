@@ -1,0 +1,67 @@
+.syp-pills {
+  padding: 40px 0;
+}
+.syp-pills .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.syp-pills__title {
+  margin: 0 0 8px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.syp-pills__intro {
+  margin: 0 0 22px;
+  color: #333;
+  max-width: 760px;
+}
+
+.syp-pills__list {
+  display: grid;
+  gap: 16px;
+}
+
+.syp-pill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 22px;
+  border-radius: 22px;
+  background: #d9f7c6;
+  border: 1px solid #d9f7c6;
+}
+.syp-pill--solid {
+  background: #66cc4a;
+  border-color: #66cc4a;
+}
+
+.syp-pill__left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.syp-pill__icon img {
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+.syp-pill__title {
+  font-weight: 700;
+  font-size: clamp(28px, 3vw, 44px);
+  line-height: 1.05;
+  margin: 0;
+}
+
+.syp-pill__desc p {
+  margin: 0;
+  font-size: clamp(14px, 1.1vw, 16px);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .syp-pill {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+}

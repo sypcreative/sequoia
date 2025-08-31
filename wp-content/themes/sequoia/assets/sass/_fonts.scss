@@ -1,0 +1,44 @@
+/* Century Gothic */
+@font-face {
+  font-family: "centurygothic";
+  src:
+    url("./../fonts/century-gothic.woff2") format("woff2"),
+    url("./../fonts/century-gothic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "centurygothic";
+  src:
+    url("./../fonts/century-gothic-italic.woff2") format("woff2"),
+    url("./../fonts/century-gothic-italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "centurygothic";
+  src:
+    url("./../fonts/century-gothic-bold.woff2") format("woff2"),
+    url("./../fonts/century-gothic-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "centurygothic";
+  src:
+    url("./../fonts/century-gothic-bold-italic.woff2") format("woff2"),
+    url("./../fonts/century-gothic-bold-italic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Tumb */
+@font-face {
+  font-family: "questrial";
+  src: url("./../fonts/questrial-regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}

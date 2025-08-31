@@ -1,0 +1,61 @@
+{
+  "apiVersion": 3,
+  "name": "syp/cards-list",
+  "title": "Cards with Lists",
+  "category": "sequoia-home",
+  "icon": "screenoptions",
+  "description": "Título de sección y un grid de cards con título e items.",
+  "style": "file:./style.css",
+  "editorStyle": "file:./editor.css",
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php",
+  "supports": {
+    "html": false,
+    "align": false,
+    "color": {
+      "background": false,
+      "text": false,
+      "link": false,
+      "gradients": false
+    },
+    "spacing": { "padding": false, "margin": false },
+    "typography": {
+      "fontSize": false,
+      "lineHeight": false,
+      "fontStyle": false,
+      "fontWeight": false,
+      "letterSpacing": false,
+      "textTransform": false
+    }
+  },
+  "attributes": {
+    "heading": { "type": "string", "default": "" },
+    "cards": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string", "default": "" },
+          "variant": {
+            "type": "string",
+            "enum": ["light", "solid"],
+            "default": "light"
+          },
+          "items": {
+            "type": "array",
+            "default": [],
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": { "type": "string", "default": "" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
