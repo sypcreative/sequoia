@@ -75,27 +75,6 @@ function dump($data)
 	echo '</pre>';
 }
 
-
-function sequoia_register_block_editor_assets()
-{
-	$asset_file = include get_template_directory() . '/build/index.asset.php';
-
-	wp_register_script(
-		'sequoia-blocks',
-		get_template_directory_uri() . '/build/index.js',
-		$asset_file['dependencies'],
-		$asset_file['version']
-	);
-}
-add_action('init', 'sequoia_register_block_editor_assets');
-
-function sequoia_render_hero_block($attributes, $content)
-{
-	ob_start();
-	include get_template_directory() . '/template-parts/blocks/hero/render.php';
-	return ob_get_clean();
-}
-
 function aurora_add_viewport_meta()
 {
 	if (is_admin()) return; // solo front-end

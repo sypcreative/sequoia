@@ -1,1 +1,11 @@
-{}
+{
+  "devDependencies": {
+    "@wordpress/scripts": "^30.22.0",
+    "gsap": "^3.13.0",
+    "split-type": "^0.3.4"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  }
+}

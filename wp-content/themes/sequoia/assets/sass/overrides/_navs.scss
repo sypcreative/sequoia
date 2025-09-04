@@ -1,3 +1,53 @@
 .navbar-brand img {
   max-height: 40px;
 }
+
+.navbar-brand .brand-logo {
+  color: #fff; /* el SVG queda blanco */
+  background-color: red;
+  mix-blend-mode: difference; /* invierte respecto al fondo */
+}
+
+.navbar-brand .brand-logo svg {
+  display: block;
+  height: auto;
+  width: 220px;
+  mix-blend-mode: difference; /* invierte respecto al fondo */
+}
+.navbar-brand .brand-logo svg * {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+/* estado inicial: transparente */
+// #siteHeader {
+//   transition:
+//     background-color 0.25s ease,
+//     box-shadow 0.25s ease,
+//     color 0.25s ease;
+//   background-color: transparent;
+// }
+
+// /* logo hereda el color del header */
+// #siteHeader .brand-logo svg * {
+//   fill: currentColor;
+//   stroke: currentColor;
+// }
+
+// /* cuando se hace scroll o el menú está abierto → fondo negro y texto blanco */
+// #siteHeader.is-scrolled,
+// #siteHeader.is-open {
+//   background-color: rgba(0, 0, 0, 0.9);
+//   color: #fff; /* esto pinta el SVG inline si usas currentColor */
+//   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+// }
+
+// /* por si tienes links/btns dentro del header */
+// #siteHeader.is-scrolled a,
+// #siteHeader.is-open a {
+//   color: #fff;
+// }
+// #siteHeader.is-scrolled .btn.btn-green,
+// #siteHeader.is-open .btn.btn-green {
+//   color: #fff;
+// } /* conserva botón */

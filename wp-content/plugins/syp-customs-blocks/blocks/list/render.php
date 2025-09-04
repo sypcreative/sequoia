@@ -10,14 +10,14 @@ if (!empty($items)) {
 }
 ?>
 <section class="syp-list container">
-	<?php if ($heading): ?><h2 class="syp-list__title"><?php echo $heading; ?></h2><?php endif; ?>
+	<?php if ($heading): ?><h2 class="syp-list__title" data-anim="text-animated"><?php echo $heading; ?></h2><?php endif; ?>
 
 	<?php if (!empty($items)): ?>
 		<ul class="syp-list__ul px-4" role="list">
 			<?php foreach ($items as $i => $it):
 				$text = $it['text'] ? wp_kses_post($it['text']) : '';
 				if (!$text) continue; ?>
-				<li class="syp-list__li">
+				<li class=" syp-list__li">
 					<span class="syp-list__icon" aria-hidden="true">
 						<?php /* check minimal inline */ ?>
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">

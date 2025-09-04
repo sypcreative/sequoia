@@ -13,7 +13,7 @@ $buttonUrl   = isset($attributes['buttonUrl']) ? esc_url($attributes['buttonUrl'
 ?>
 <section class="syp-text-cta container py-5">
 	<div class="row pt-5">
-		<div class="col-lg-10">
+		<div class="col-lg-10" data-anim="text-animated-group">
 			<?php foreach ($paragraphs as $p) :
 				if (! $p) {
 					continue;
@@ -23,10 +23,11 @@ $buttonUrl   = isset($attributes['buttonUrl']) ? esc_url($attributes['buttonUrl'
 
 			<?php if ($buttonText && $buttonUrl) : ?>
 				<div class="wp-block-buttons mt-3">
-					<div class="wp-block-button">
-						<a class="wp-block-button__link" href="<?php echo $buttonUrl; ?>">
+					<div class="btn-wrapper d-inline-flex align-items-center">
+						<a class="btn btn-green text-white" href="<?php echo $buttonUrl; ?>">
 							<?php echo $buttonText; ?>
 						</a>
+						<span class="btn btn-green text-white btn-arrow">→</span>
 					</div>
 				</div>
 			<?php endif; ?>

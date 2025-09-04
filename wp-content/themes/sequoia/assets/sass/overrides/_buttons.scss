@@ -4,7 +4,12 @@
 .btn {
   &:not(.btn-lg, .btn-sm) {
     @include media-breakpoint-up(md) {
-      @include button-size($cor-btn-md-padding-y, $cor-btn-md-padding-x, $cor-btn-font-size-md, $cor-btn-border-radius);
+      @include button-size(
+        $cor-btn-md-padding-y,
+        $cor-btn-md-padding-x,
+        $cor-btn-font-size-md,
+        $cor-btn-border-radius
+      );
     }
   }
 
@@ -18,7 +23,12 @@
 
 .dropdown .btn-drop {
   @include button-variant($cor-gray, $cor-gray);
-  @include button-size($spacer * .9, $spacer * 1.5, $cor-btn-font-size, $cor-btn-border-radius);
+  @include button-size(
+    $spacer * 0.9,
+    $spacer * 1.5,
+    $cor-btn-font-size,
+    $cor-btn-border-radius
+  );
   @include media-breakpoint-up(md) {
     min-width: $cor-dropdown-min-width;
   }
@@ -26,30 +36,63 @@
 
 .btn {
   &.btn-white {
-    @include button-variant($cor-white, $cor-black, $cor-secondary, rgba($cor-gray, .8), $cor-secondary, $cor-black);
+    @include button-variant(
+      $cor-white,
+      $cor-black,
+      $cor-secondary,
+      rgba($cor-gray, 0.8),
+      $cor-secondary,
+      $cor-black
+    );
 
     &.activo {
-      @include button-variant($cor-gray, $cor-black, $cor-secondary, rgba($cor-gray, .8), $cor-secondary, $cor-black);
-
+      @include button-variant(
+        $cor-gray,
+        $cor-black,
+        $cor-secondary,
+        rgba($cor-gray, 0.8),
+        $cor-secondary,
+        $cor-black
+      );
     }
   }
 
-   &.btn-pink {
-    @include button-variant($cor-pink, rgba($cor-pink, .0), $cor-primary, rgba($cor-pink, .8), rgba($cor-pink, .8), $cor-primary);
+  &.btn-pink {
+    @include button-variant(
+      $cor-pink,
+      rgba($cor-pink, 0),
+      $cor-primary,
+      rgba($cor-pink, 0.8),
+      rgba($cor-pink, 0.8),
+      $cor-primary
+    );
 
     &.activo {
-      @include button-variant(rgba($cor-pink, .8), $cor-black, $cor-primary, rgba($cor-gray, .8), $cor-secondary, $cor-black);
-
+      @include button-variant(
+        rgba($cor-pink, 0.8),
+        $cor-black,
+        $cor-primary,
+        rgba($cor-gray, 0.8),
+        $cor-secondary,
+        $cor-black
+      );
     }
   }
 
   &.btn-sticky {
-    @include button-variant($cor-black, $cor-black, $cor-primary, rgba($cor-black, .8), rgba($cor-black, .8), $cor-primary);
+    @include button-variant(
+      $cor-black,
+      $cor-black,
+      $cor-primary,
+      rgba($cor-black, 0.8),
+      rgba($cor-black, 0.8),
+      $cor-primary
+    );
     position: fixed;
-    top:      50vh;
+    top: 50vh;
     transform: translate(0, -50%);
-    right:    calc(1.5rem * 0.5);
-    z-index:  100;
+    right: calc(1.5rem * 0.5);
+    z-index: 100;
   }
 
   @media (max-width: 768px) {
@@ -60,4 +103,52 @@
       transform: none !important;
     }
   }
+}
+
+.btn-wrapper {
+  * {
+    border: none !important;
+  }
+
+  &:hover {
+    * {
+      background-color: #99bb55 !important;
+    }
+  }
+}
+
+.btn-wrapper .btn-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-wrapper {
+  display: inline-flex;
+  align-items: center;
+  /* si quieres separación inicial visible, añade gap; si no, se calcula solo */
+  /* gap: 8px; */
+}
+
+.btn-wrapper .btn-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.3s; /* color al hover */
+  will-change: transform; /* perf: vamos a animar transform */
+}
+
+.btn-wrapper a.btn {
+  will-change: transform;
 }

@@ -1,0 +1,135 @@
+/* Variables */
+.syp-timeline {
+  --track-row: 40px;
+  --dot: 14px;
+}
+
+/* Contenedor */
+.syp-timeline {
+  position: relative;
+  padding: 2rem 0 calc(var(--track-row) + 1.5rem);
+}
+
+/* Línea base (una sola, fija) */
+.syp-timeline__track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--track-row) / 2 - 1px);
+  height: 2px;
+  background: #202020;
+  z-index: 1;
+}
+
+/* Swiper */
+.syp-timeline__swiper {
+  overflow: visible;
+  gap: 8rem;
+}
+.syp-timeline__swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+/* Slide/Item */
+.syp-timeline__item {
+  position: relative;
+}
+/* 
+@media (max-width: 1024px) {
+  .syp-timeline__item {
+    width: 360px;
+  }
+}
+@media (max-width: 640px) {
+  .syp-timeline__item {
+    width: 86vw;
+  }
+} */
+
+/* Año grande (decorativo) */
+.syp-timeline__year {
+  grid-row: 1;
+  font-size: clamp(3rem, 12vw, 6rem);
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 -2rem 0;
+}
+
+/* Tarjeta */
+.syp-timeline__card {
+  grid-row: 1;
+  background: #b9f5b9;
+  border-radius: 18px;
+  padding: 6rem 2.5rem 1.25rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.syp-timeline__head {
+  margin-bottom: 0.75rem;
+}
+.syp-timeline__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  background: #4caf50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.syp-timeline__icon img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.syp-timeline__title {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+.syp-timeline__text {
+  margin: 0 0 1rem;
+  line-height: 1.45;
+}
+.syp-timeline__label span {
+  display: inline-block;
+  background: #4caf50;
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  border-radius: 999px;
+}
+
+/* Punto siempre centrado en la fila inferior */
+.syp-timeline__dot {
+  grid-row: 2;
+  justify-self: center;
+  align-self: center; /* centra justo en mitad de la fila */
+  width: var(--dot);
+  height: var(--dot);
+  background: #202020;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* Flechas (opcional) */
+.syp-timeline__nav {
+  position: absolute;
+  top: 40%;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+  cursor: pointer;
+}
+.syp-timeline__nav--prev {
+  left: -12px;
+}
+.syp-timeline__nav--next {
+  right: -12px;
+}

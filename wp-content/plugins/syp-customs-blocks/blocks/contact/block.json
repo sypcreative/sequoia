@@ -2,7 +2,7 @@
   "apiVersion": 3,
   "name": "syp/contact-cta",
   "title": "Contact CTA",
-  "category": "sequoia-home",
+  "category": "sequoia-contact",
   "icon": "email",
   "description": "Título, intro y botón + tarjeta con datos de contacto (desde opciones del sitio o sobrescrito).",
   "style": "file:./style.css",

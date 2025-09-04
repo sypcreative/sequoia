@@ -10,6 +10,8 @@
  * @package sequoia
  */
 
+$logo    = get_option('syp_company_logo', '');
+
 $menu_principal = [
 	'theme_location' => 'menu-principal',
 	'container'      => 'ul',
@@ -31,7 +33,7 @@ $menu_principal = [
 		<?php wp_body_open(); ?>
 		<div id="page" class="site" data-barba="container" data-barba-namespace="<?php echo get_post_field('post_name', get_post()); ?>">
 			<!-- Nav Cabecera -->
-			<header class="position-fixed w-100 z-4">
+			<header id="siteHeader" class="position-fixed w-100 z-4">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-12">
@@ -40,30 +42,26 @@ $menu_principal = [
 
 									<!-- Logo izquierda -->
 									<a class="navbar-brand" href="<?= esc_url(get_home_url()); ?>">
-										<img src="" alt="sequoia Logo" style="height: 40px;">
+										<?= syp_render_inline_logo([
+											'class' => 'brand-logo',
+											'title' => get_bloginfo('name'),
+										]); ?>
 									</a>
 
 									<!-- Hamburguesa y botón contacto a la derecha -->
 									<div class="d-flex align-items-center ms-auto">
-										<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+										<button class="navbar-toggle btn btn-primary opacity-" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 											aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-											<span class="navbar-toggler-icon"></span>
+											<svg width="21" height="17" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect x="12" y="20" width="16" height="3.2" fill="black" />
+												<rect x="6" y="10" width="16" height="3.2" fill="black" />
+												<rect width="16" height="3.2" fill="black" />
+											</svg>
+
 										</button>
 										<a href="<?= esc_url(home_url('/contact')); ?>" class="btn btn-green ms-3 text-light">
 											Get in touch
 										</a>
-									</div>
-
-									<!-- Menú colapsable -->
-									<div class="collapse navbar-collapse" id="navbarNav">
-										<?php
-										wp_nav_menu([
-											'theme_location' => 'menu-principal',
-											'container'      => false,
-											'menu_class'     => 'navbar-nav ms-auto text-uppercase',
-											'fallback_cb'    => false,
-										]);
-										?>
 									</div>
 
 								</div>
@@ -72,3 +70,45 @@ $menu_principal = [
 					</div>
 				</div>
 			</header>
+			<div id="navbarNav" class="collapse position-relative z-4">
+				<div class="position-fixed top-0 start-0 vw-100 vh-100 bg-primary">
+					<div class="container h-100 position-relative d-flex flex-column p-5">
+						<!-- fila superior: logo + botón cerrar -->
+						<div class="d-flex justify-content-between align-items-start pt-3">
+							<a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
+								<?= syp_render_inline_logo([
+									'class' => 'brand-logo text-white',
+									'title' => get_bloginfo('name'),
+								]); ?>
+							</a>
+
+							<!-- botón cerrar -->
+							<button class="btn btn-light rounded-4 px-3 py-2 shadow-0"
+								type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+								aria-label="Close menu">×</button>
+						</div>
+
+						<!-- enlaces centrados -->
+						<div class="d-flex flex-row h-100 justify-content-between align-items-end">
+							<div class="d-flex flex-column justify-content-end h-100 ">
+								<?php
+								wp_nav_menu([
+									'theme_location' => 'menu-principal',
+									'container'      => false,
+									'menu_class'     => 'nav flex-column gap-2 jumbo text-uppercase',
+									'fallback_cb'    => false,
+									'link_class'     => 'text-secondary', // 👈 clases al <a>
+								]);
+								?>
+							</div>
+
+							<!-- botón contacto abajo-derecha -->
+							<div class="p-4">
+								<a href="<?= esc_url(home_url('/contact')); ?>" class="btn btn-green text-white px-4">
+									Get in touch
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>

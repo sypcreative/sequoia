@@ -30,7 +30,7 @@ if (!empty($cards)) {
 							<?php foreach ($cards as $i => $card):
 								$title = $card['title'] ? wp_kses_post($card['title']) : '';
 								$variant = in_array($card['variant'], ['light', 'solid'], true) ? $card['variant'] : 'light'; ?>
-								<div class="col-4">
+								<div class="col-12 col-md-4 mb-3">
 									<article class="syp-card d-flex flex-column justify-content-between syp-card--<?php echo esc_attr($variant); ?>">
 										<?php if ($title): ?><h3 class="syp-card__title h1 fw-medium"><?php echo $title; ?></h3><?php endif; ?>
 

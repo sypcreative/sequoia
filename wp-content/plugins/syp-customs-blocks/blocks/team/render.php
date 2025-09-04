@@ -33,11 +33,11 @@ ob_start(); ?>
 							</div>
 						<?php endif; ?>
 
-						<footer class="syp-person__footer">
-							<div class="syp-person__name"><?php echo $name; ?></div>
-							<div class="syp-person__role"><?php echo $role; ?></div>
+						<footer class="syp-person__footer px-4">
+							<div class="syp-person__name fw-medium"><?php echo $name; ?></div>
+							<div class="syp-person__role text-uppercase"><?php echo $role; ?></div>
 							<?php if ($mail): ?>
-								<a class="syp-person__email" href="mailto:<?php echo esc_attr($mail); ?>">
+								<a class="syp-person__email text-decoration-none" href="mailto:<?php echo esc_attr($mail); ?>">
 									<?php echo esc_html($mail); ?>
 								</a>
 							<?php endif; ?>

@@ -11,6 +11,7 @@
   "render": "file:./render.php",
   "editorStyle": "file:./editor.css",
   "attributes": {
+    "title": { "type": "string", "default": "" },
     "paragraphs": { "type": "array", "default": [] },
     "buttonText": { "type": "string", "default": "" },
     "buttonUrl": { "type": "string", "default": "" }

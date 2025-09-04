@@ -1,0 +1,13 @@
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.footer-brand .brand-logo svg {
+  display: block;
+  height: auto;
+  width: 320px;
+}
+.footer-brand .brand-logo svg * {
+  fill: currentColor;
+  stroke: currentColor;
+}

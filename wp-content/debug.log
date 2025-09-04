@@ -6948,3 +6948,314 @@ Stack trace:
 [31-Aug-2025 18:11:12 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
 [31-Aug-2025 18:11:12 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
 [31-Aug-2025 18:11:12 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[31-Aug-2025 23:38:13 UTC] Automatic updates starting...
+[31-Aug-2025 23:38:14 UTC]   Automatic plugin updates starting...
+[31-Aug-2025 23:38:14 UTC]   Automatic plugin updates complete.
+[31-Aug-2025 23:38:15 UTC] Automatic updates complete.
+[01-Sep-2025 08:52:49 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[01-Sep-2025 10:28:35 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:28:40 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:33:25 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:34:29 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:34:32 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:34:34 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[01-Sep-2025 10:34:36 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[01-Sep-2025 10:37:25 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:57:33 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:57:41 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:57:48 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 10:59:41 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[01-Sep-2025 11:00:10 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 11:00:10 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 11:01:31 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 11:01:31 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 11:47:50 UTC] Automatic updates starting...
+[01-Sep-2025 11:47:50 UTC]   Automatic plugin updates starting...
+[01-Sep-2025 11:47:50 UTC]   Automatic plugin updates complete.
+[01-Sep-2025 11:47:50 UTC] Automatic updates complete.
+[01-Sep-2025 12:54:32 UTC] BFU: Processing "Vector.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-7c4432d0b5847f4dbdc39e5e28a11f9d186cda50.part. 0 B processed so far.
+[01-Sep-2025 12:54:32 UTC] BFU: Completing "Vector.svg" upload with a 2,471 KB final size.
+[01-Sep-2025 12:54:35 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 12:54:35 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 13:44:20 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 13:49:28 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:51:29 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:53:30 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:54:42 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:54:42 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:54:42 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:54:43 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:54:44 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:54:46 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:54:53 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 13:54:54 UTC] PHP Parse error:  Unterminated comment starting line 140 in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/syp-custom-blocks.php on line 140
+[01-Sep-2025 15:33:03 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 16:33:43 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 16:37:52 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 16:37:52 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 18:19:01 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 19:13:01 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:26 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:26 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:26 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:26 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:28 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:28 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:28 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:28 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:28 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:38 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:38 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:38 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:38 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 20:26:38 UTC] PHP Warning:  Undefined variable $hero_general_imagen_escritorio in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php on line 104
+[01-Sep-2025 23:37:39 UTC] Automatic updates starting...
+[01-Sep-2025 23:37:39 UTC]   Automatic plugin updates starting...
+[01-Sep-2025 23:37:39 UTC]   Automatic plugin updates complete.
+[01-Sep-2025 23:37:40 UTC] Automatic updates complete.
+[02-Sep-2025 13:11:10 UTC] PHP Warning:  wp_version_check(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[02-Sep-2025 13:11:10 UTC] PHP Warning:  wp_update_plugins(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[02-Sep-2025 13:11:10 UTC] PHP Warning:  wp_update_themes(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[02-Sep-2025 13:24:06 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Sep-2025 13:37:36 UTC] PHP Warning:  Undefined variable $address in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/footer.php on line 47
+[02-Sep-2025 13:37:36 UTC] PHP Warning:  Undefined variable $email in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/footer.php on line 56
+[02-Sep-2025 13:37:37 UTC] PHP Warning:  Undefined variable $address in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/footer.php on line 47
+[02-Sep-2025 13:37:37 UTC] PHP Warning:  Undefined variable $email in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/footer.php on line 56
+[02-Sep-2025 13:45:29 UTC] PHP Warning:  Undefined variable $linkedin in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/footer.php on line 51
+[02-Sep-2025 13:45:29 UTC] PHP Warning:  Undefined variable $linkedin in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/footer.php on line 51
+[02-Sep-2025 13:45:32 UTC] PHP Warning:  Undefined variable $linkedin in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/footer.php on line 51
+[02-Sep-2025 13:45:32 UTC] PHP Warning:  Undefined variable $linkedin in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/footer.php on line 51
+[02-Sep-2025 14:30:35 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Sep-2025 15:29:28 UTC] BFU: Processing "Recurso 1.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-f77d9367d1effc6c0b51ac8b3ab880fb7c59474e.part. 0 B processed so far.
+[02-Sep-2025 15:29:28 UTC] BFU: Completing "Recurso 1.svg" upload with a 6,255 KB final size.
+[02-Sep-2025 15:33:16 UTC] PHP Warning:  Undefined variable $logo_url in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/header.php on line 45
+[02-Sep-2025 15:33:16 UTC] PHP Warning:  Undefined variable $logo_url in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/header.php on line 45
+[02-Sep-2025 15:33:16 UTC] PHP Warning:  Undefined variable $logo_url in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/header.php on line 45
+[02-Sep-2025 15:33:19 UTC] PHP Warning:  Undefined variable $logo_url in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/header.php on line 45
+[02-Sep-2025 18:41:11 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Sep-2025 18:41:40 UTC] BFU: Processing "Handshake.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-54ab59e7b3909d87c2c86823e3d1e5a4a3eac18b.part. 0 B processed so far.
+[02-Sep-2025 18:41:40 UTC] BFU: Completing "Handshake.svg" upload with a 2,354 KB final size.
+[02-Sep-2025 18:45:32 UTC] BFU: Processing "Recurso 1.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-f77d9367d1effc6c0b51ac8b3ab880fb7c59474e.part. 0 B processed so far.
+[02-Sep-2025 18:45:32 UTC] BFU: Completing "Recurso 1.svg" upload with a 1,443 KB final size.
+[02-Sep-2025 18:45:32 UTC] BFU: Processing "Recurso 2.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-480a301c3259af8ed00eecee9d5d834700411f01.part. 0 B processed so far.
+[02-Sep-2025 18:45:32 UTC] BFU: Completing "Recurso 2.svg" upload with a 1,866 KB final size.
+[02-Sep-2025 18:45:33 UTC] BFU: Processing "Recurso 3.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-7dffd52ccc8dfa7547b9639a045fb9b1822f1aa1.part. 0 B processed so far.
+[02-Sep-2025 18:45:33 UTC] BFU: Completing "Recurso 3.svg" upload with a 1,911 KB final size.
+[02-Sep-2025 18:45:33 UTC] BFU: Processing "Recurso 4.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-85f9c3c82afe7de36aa275663c67f917158dfaa4.part. 0 B processed so far.
+[02-Sep-2025 18:45:33 UTC] BFU: Completing "Recurso 4.svg" upload with a 1,646 KB final size.
+[02-Sep-2025 18:49:39 UTC] BFU: Processing "Recurso 5.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-3dbebfd15aac98cc276409adec4f4009d7349fac.part. 0 B processed so far.
+[02-Sep-2025 18:49:39 UTC] BFU: Completing "Recurso 5.svg" upload with a 1,341 KB final size.
+[02-Sep-2025 18:49:39 UTC] BFU: Processing "Recurso 6.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-3663f611623e8b19dfd5dc378c26a46b0587418c.part. 0 B processed so far.
+[02-Sep-2025 18:49:40 UTC] BFU: Completing "Recurso 6.svg" upload with a 1,854 KB final size.
+[02-Sep-2025 18:55:59 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Sep-2025 18:56:44 UTC] BFU: Processing "business-26.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-6fbb902587098083d8db1653c7de18ce8c7fcb05.part. 0 B processed so far.
+[02-Sep-2025 18:56:44 UTC] BFU: Completing "business-26.svg" upload with a 826,000 B final size.
+[02-Sep-2025 18:58:32 UTC] BFU: Processing "business, teamwork, collaboration, group, staff.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-357c343943f5be1def47ccd796939dc28bea498d.part. 0 B processed so far.
+[02-Sep-2025 18:58:32 UTC] BFU: Completing "business, teamwork, collaboration, group, staff.svg" upload with a 4,872 KB final size.
+[02-Sep-2025 19:00:40 UTC] BFU: Processing "Recurso 1.svg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-f77d9367d1effc6c0b51ac8b3ab880fb7c59474e.part. 0 B processed so far.
+[02-Sep-2025 19:00:40 UTC] BFU: Completing "Recurso 1.svg" upload with a 4,137 KB final size.
+[02-Sep-2025 19:05:15 UTC] BFU: Processing "WhiteSmall.png" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-2e30775b4687a9bb920b6c33ae254bfaed9852ab.part. 0 B processed so far.
+[02-Sep-2025 19:05:15 UTC] BFU: Completing "WhiteSmall.png" upload with a 510,018 KB final size.
+[02-Sep-2025 19:35:11 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Sep-2025 20:01:27 UTC] BFU: Processing "Dave 1.jpg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-5f2f07f95d5e79b84c2ebb047ecf5930a420d3f1.part. 0 B processed so far.
+[02-Sep-2025 20:01:27 UTC] BFU: Completing "Dave 1.jpg" upload with a 248,789 KB final size.
+[02-Sep-2025 20:01:27 UTC] BFU: Processing "Gabe 1.jpg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-3b2266e03de05fa66e912410fa944f3f87c43552.part. 0 B processed so far.
+[02-Sep-2025 20:01:27 UTC] BFU: Completing "Gabe 1.jpg" upload with a 229,865 KB final size.
+[02-Sep-2025 20:05:09 UTC] BFU: Processing "Corey 1.jpeg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-2897a947e079a09eab54fffee774a04c9e1bf328.part. 0 B processed so far.
+[02-Sep-2025 20:05:09 UTC] BFU: Completing "Corey 1.jpeg" upload with a 119,656 KB final size.
+[02-Sep-2025 20:05:09 UTC] BFU: Processing "DPR.jpg" part 1 of 1 as /Applications/MAMP/htdocs/sequoia/wp-content/bfu-temp/1-fe72800cb75f6a36f77b9b96a40c46a52ed8ed36.part. 0 B processed so far.
+[02-Sep-2025 20:05:09 UTC] BFU: Completing "DPR.jpg" upload with a 238,263 KB final size.
+[02-Sep-2025 20:13:11 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Sep-2025 20:14:18 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Block as array in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(552): require()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-block.php(586): {closure}(Array, '', Object(WP_Block))
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2359): WP_Block->render()
+#3 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2431): render_block(Array)
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): do_blocks('<!-- wp:syp/her...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:syp/her...', Array)
+#6 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(652): apply_filters('the_content', '<!-- wp:syp/her...')
+#7 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(460): WP_REST_Revisions_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(253): WP_REST_Autosaves_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#9 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#10 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#11 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#12 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/pages/58...')
+#13 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#14 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#16 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#17 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(818): WP->parse_request('')
+#18 /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php(1342): WP->main('')
+#19 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(16): wp()
+#20 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#21 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php on line 10
+[02-Sep-2025 20:14:18 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Block as array in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(552): require()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-block.php(586): {closure}(Array, '', Object(WP_Block))
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2359): WP_Block->render()
+#3 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2431): render_block(Array)
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): do_blocks('<!-- wp:syp/her...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:syp/her...', Array)
+#6 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1961): apply_filters('the_content', '<!-- wp:syp/her...')
+#7 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1038): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#9 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/pages/58')
+#12 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(818): WP->parse_request('')
+#17 /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php(1342): WP->main('')
+#18 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(16): wp()
+#19 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#20 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php on line 10
+[02-Sep-2025 20:14:21 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Block as array in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(552): require()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-block.php(586): {closure}(Array, '', Object(WP_Block))
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2359): WP_Block->render()
+#3 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2431): render_block(Array)
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): do_blocks('<!-- wp:syp/her...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:syp/her...', Array)
+#6 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1961): apply_filters('the_content', '<!-- wp:syp/her...')
+#7 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1038): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#9 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/pages/58')
+#12 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(818): WP->parse_request('')
+#17 /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php(1342): WP->main('')
+#18 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(16): wp()
+#19 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#20 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php on line 10
+[02-Sep-2025 20:14:22 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Block as array in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(552): require()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-block.php(586): {closure}(Array, '', Object(WP_Block))
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2359): WP_Block->render()
+#3 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2431): render_block(Array)
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): do_blocks('<!-- wp:syp/her...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:syp/her...', Array)
+#6 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1961): apply_filters('the_content', '<!-- wp:syp/her...')
+#7 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1038): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#9 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/pages/58')
+#12 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(818): WP->parse_request('')
+#17 /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php(1342): WP->main('')
+#18 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(16): wp()
+#19 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#20 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php on line 10
+[02-Sep-2025 20:14:23 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Block as array in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(552): require()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-block.php(586): {closure}(Array, '', Object(WP_Block))
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2359): WP_Block->render()
+#3 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2431): render_block(Array)
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): do_blocks('<!-- wp:syp/her...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:syp/her...', Array)
+#6 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1961): apply_filters('the_content', '<!-- wp:syp/her...')
+#7 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1038): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#9 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/pages/58')
+#12 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(818): WP->parse_request('')
+#17 /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php(1342): WP->main('')
+#18 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(16): wp()
+#19 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#20 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php on line 10
+[02-Sep-2025 20:14:29 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Block as array in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(552): require()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-block.php(586): {closure}(Array, '', Object(WP_Block))
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2359): WP_Block->render()
+#3 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2431): render_block(Array)
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): do_blocks('<!-- wp:syp/her...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:syp/her...', Array)
+#6 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1961): apply_filters('the_content', '<!-- wp:syp/her...')
+#7 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1038): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#9 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/pages/58')
+#12 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp.php(818): WP->parse_request('')
+#17 /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php(1342): WP->main('')
+#18 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(16): wp()
+#19 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#20 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php on line 10
+[02-Sep-2025 20:14:46 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Block as array in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(552): require()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-block.php(586): {closure}(Array, '', Object(WP_Block))
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2359): WP_Block->render()
+#3 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2431): render_block(Array)
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): do_blocks('<!-- wp:syp/her...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:syp/her...', Array)
+#6 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1961): apply_filters('the_content', '<!-- wp:syp/her...')
+#7 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(655): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(586): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(2973): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/pages/58...')
+#13 /Applications/MAMP/htdocs/sequoia/wp-includes/block-editor.php(754): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/MAMP/htdocs/sequoia/wp-admin/edit-form-blocks.php(114): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/MAMP/htdocs/sequoia/wp-admin/post.php(187): require('/Applications/M...')
+#16 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php on line 10
+[02-Sep-2025 20:15:05 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Block as array in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(552): require()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-block.php(586): {closure}(Array, '', Object(WP_Block))
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2359): WP_Block->render()
+#3 /Applications/MAMP/htdocs/sequoia/wp-includes/blocks.php(2431): render_block(Array)
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-hook.php(324): do_blocks('<!-- wp:syp/her...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:syp/her...', Array)
+#6 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1961): apply_filters('the_content', '<!-- wp:syp/her...')
+#7 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(655): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(586): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/MAMP/htdocs/sequoia/wp-includes/rest-api.php(2973): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/pages/58...')
+#13 /Applications/MAMP/htdocs/sequoia/wp-includes/block-editor.php(754): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/MAMP/htdocs/sequoia/wp-admin/edit-form-blocks.php(114): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/MAMP/htdocs/sequoia/wp-admin/post.php(187): require('/Applications/M...')
+#16 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/timeline/render.php on line 10
+[03-Sep-2025 14:05:54 UTC] Automatic updates starting...
+[03-Sep-2025 14:05:55 UTC]   Automatic plugin updates starting...
+[03-Sep-2025 14:05:55 UTC]   Automatic plugin updates complete.
+[03-Sep-2025 14:05:56 UTC] Automatic updates complete.
+[04-Sep-2025 06:37:29 UTC] Automatic updates starting...
+[04-Sep-2025 06:37:30 UTC]   Automatic plugin updates starting...
+[04-Sep-2025 06:37:30 UTC]   Automatic plugin updates complete.
+[04-Sep-2025 06:37:30 UTC] Automatic updates complete.

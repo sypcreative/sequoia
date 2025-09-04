@@ -2,7 +2,7 @@
   "apiVersion": 3,
   "name": "syp/products-pills",
   "title": "Products (Pills List)",
-  "category": "sequoia-home",
+  "category": "sequoia-about",
   "icon": "portfolio",
   "description": "Heading + intro + lista de filas tipo pill con icono, título y descripción.",
   "style": "file:./style.css",

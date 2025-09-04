@@ -2,7 +2,7 @@
   "apiVersion": 3,
   "name": "syp/cards-list",
   "title": "Cards with Lists",
-  "category": "sequoia-home",
+  "category": "sequoia-services",
   "icon": "screenoptions",
   "description": "Título de sección y un grid de cards con título e items.",
   "style": "file:./style.css",

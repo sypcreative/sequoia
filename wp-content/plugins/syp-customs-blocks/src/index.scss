@@ -1,0 +1,17 @@
+/* Máscara por línea */
+.syp-line-mask {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom; /* buen alineado con texto */
+}
+.syp-line {
+  display: inline-block;
+  will-change: transform;
+}
+.line {
+  overflow: hidden; /* recorta cuando sube */
+}
+
+.syp-card {
+  backface-visibility: hidden;
+}
