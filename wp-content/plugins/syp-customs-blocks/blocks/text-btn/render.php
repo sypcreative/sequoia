@@ -18,7 +18,7 @@ $buttonUrl   = isset($attributes['buttonUrl']) ? esc_url($attributes['buttonUrl'
 				if (! $p) {
 					continue;
 				} ?>
-				<p class="h1 fw-light pb-4"><?php echo wp_kses_post($p); ?></p>
+				<p class="h-md-1 h-3 fw-light pb-4"><?php echo wp_kses_post($p); ?></p>
 			<?php endforeach; ?>
 
 			<?php if ($buttonText && $buttonUrl) : ?>

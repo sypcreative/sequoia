@@ -11,18 +11,17 @@ $wrapper_attrs = get_block_wrapper_attributes([
 	'id'    => $uid
 ]);
 
-// Carga Swiper vía CDN (rápido para dev). Si prefieres local, cámbialo.
+// Swiper vía CDN
 wp_enqueue_style('swiper', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css', [], '10.0.0');
 wp_enqueue_script('swiper', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js', [], '10.0.0', true);
-
 ?>
 <section <?php echo $wrapper_attrs; ?> data-timeline>
 	<!-- línea base -->
 	<div class="syp-timeline__track" aria-hidden="true"></div>
 
 	<!-- slider -->
-	<div class="swiper syp-timeline__swiper d-flex flex-row">
-		<div class="swiper-wrapper d-flex">
+	<div class="swiper syp-timeline__swiper">
+		<div class="swiper-wrapper">
 			<?php foreach ($items as $i => $it) :
 				$year       = isset($it['year'])       ? sanitize_text_field($it['year']) : '';
 				$iconUrl    = isset($it['iconUrl'])    ? esc_url($it['iconUrl']) : '';
@@ -46,16 +45,17 @@ wp_enqueue_script('swiper', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundl
 					<?php if ($shortTitle): ?>
 						<div class="syp-timeline__label text-center pt-4"><span><?php echo esc_html($shortTitle); ?></span></div>
 					<?php endif; ?>
-					<div class="syp-timeline__dot mt-5" aria-hidden="true"></div>
-		</div>
 
-		<!-- PUNTO SIEMPRE SOBRE LA LÍNEA -->
-		</article>
-	<?php endforeach; ?>
+					<!-- Punto siempre sobre la línea -->
+					<div class="syp-timeline__dot" aria-hidden="true"></div>
+				</article>
+			<?php endforeach; ?>
+		</div>
 	</div>
 
-	<!-- opcional: flechas -->
-	<div class="syp-timeline__nav syp-timeline__nav--prev" aria-label="Previous"></div>
-	<div class="syp-timeline__nav syp-timeline__nav--next" aria-label="Next"></div>
+	<!-- flechas -->
+	<div class="syp-timeline__navs" aria-label="Navigation">
+		<div class="syp-timeline__nav syp-timeline__nav--prev" aria-label="Previous">←</div>
+		<div class="syp-timeline__nav syp-timeline__nav--next" aria-label="Next">→</div>
 	</div>
 </section>

@@ -4,6 +4,7 @@ import { observeAndInit } from "./anim-text";
 import "./index.scss";
 import "./swiper";
 import { initCardsTilt } from "./tilt-cards";
+import "./navbar-contrast";
 
 function start() {
   observeAndInit(); // tus animaciones de texto

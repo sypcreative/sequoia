@@ -60,13 +60,9 @@ if (defined('JETPACK__VERSION')) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-require get_template_directory() . '/inc/acf-config.php';
-require get_template_directory() . '/inc/custom-config.php';
-require get_template_directory() . '/inc/custom-post-taxonomy.php';
-require get_template_directory() . '/inc/ajax/ajax-config.php';
-require get_template_directory() . '/inc/navs/custom-nav-walker.php';
 require get_template_directory() . '/inc/navs/custom-nav-menu.php';
-require get_template_directory() . '/inc/gtm-functions.php';
+require get_template_directory() . '/inc/navs/custom-nav-walker.php';
+// require get_template_directory() . '/inc/navs/custom-nav-menu.php';
 
 function dump($data)
 {
@@ -81,3 +77,31 @@ function aurora_add_viewport_meta()
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.4">' . PHP_EOL;
 }
 add_action('wp_head', 'aurora_add_viewport_meta', 0); // prioridad baja = lo más arriba posible
+
+// Purgar LiteSpeed Cache al actualizar contenido/ACF/menús/opciones
+function syp_lsc_purge_all_and_url($url = null)
+{
+	// Purga global
+	do_action('litespeed_purge_all');
+	// Purga URL concreta (si se pasa)
+	if ($url) {
+		do_action('litespeed_purge_url', $url);
+	}
+}
+add_action('save_post', function ($post_id) {
+	if (wp_is_post_revision($post_id)) return;
+	syp_lsc_purge_all_and_url(get_permalink($post_id));
+}, 20);
+
+add_action('acf/save_post', function ($post_id) {
+	$url = is_numeric($post_id) ? get_permalink($post_id) : home_url('/');
+	syp_lsc_purge_all_and_url($url);
+}, 20);
+
+add_action('updated_option', function () {
+	syp_lsc_purge_all_and_url();
+}, 10, 0);
+
+add_action('wp_update_nav_menu', function () {
+	syp_lsc_purge_all_and_url();
+});

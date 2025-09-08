@@ -34,41 +34,39 @@ $font-sizes-md: (
   6: $cor-font-size-base-6-md,
 );
 
-@each $size, $value in $display-font-sizes-md {
-  .display-#{$size} {
-    font-family: $cor-font-family-headings;
-
+// Headings desktop
+@each $size, $value in $headings-sizes-md {
+  .h-md-#{$size} {
     @include media-breakpoint-up(md) {
       font-size: $value !important;
     }
   }
 }
 
-@each $size, $value in $font-sizes {
-  .h#{$size},
+// HEADINGS (responsive solo md)
+@each $size, $value in $headings-sizes-md {
+  .h-#{$size},
   h#{$size} {
     @include title($size);
     font-size: $value;
   }
 }
 
-@each $size, $value in $headings-sizes-md {
-  .h#{$size},
-  h#{$size} {
-    @include media-breakpoint-up(md) {
-      font-size: $value;
-    }
-  }
-}
-
+// FONT SIZES (body)
 @each $size, $value in $font-sizes-md {
-  .fs-#{$size} {
+  .fs-md-#{$size} {
     @include media-breakpoint-up(md) {
       font-size: $value !important;
     }
   }
 }
 
+@each $size, $value in $font-sizes-md {
+  .fs-#{$size} {
+    font-size: $value;
+  }
+}
+// DISPLAY SIZES
 @each $size, $value in $display-font-sizes-md {
   .display-md-#{$size} {
     @include media-breakpoint-up(md) {
@@ -77,23 +75,15 @@ $font-sizes-md: (
   }
 }
 
-@each $size, $value in $font-sizes-md {
-  .fs-md-#{$size} {
-    @include media-breakpoint-up(md) {
-      font-size: $value !important;
-      text-transform: initial;
-    }
-  }
-}
-
-@each $size, $value in $headings-sizes-md {
-  .st-h#{$size} {
-    @include title($size);
+@each $size, $value in $display-font-sizes-md {
+  .display-#{$size} {
+    font-size: $value;
+    font-family: $cor-font-family-headings;
   }
 }
 
 .body {
-  font-size: $cor-font-legend !important;
+  font-size: $cor-font-body !important;
 
   @include media-breakpoint-up(md) {
     font-size: $cor-font-body-md !important;
@@ -107,11 +97,7 @@ $font-sizes-md: (
 }
 
 .legend {
-  font-size: $cor-font-legend !important;
-
-  @include media-breakpoint-up(md) {
-    font-size: $cor-font-legend-md !important;
-  }
+  font-size: $cor-font-legend;
 }
 
 .legend-md {
@@ -148,6 +134,13 @@ $font-sizes-md: (
   width: 80%;
 }
 
+.h-95 {
+  height: 95% !important;
+}
+
+.h-90 {
+  height: 90% !important;
+}
 // .line {
 //   display: block;
 //   overflow: hidden;

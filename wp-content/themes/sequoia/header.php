@@ -19,6 +19,8 @@ $menu_principal = [
 	'walker'         => new PrimaryMenu_Walker_Nav_Menu(),
 	'fallback_cb'    => false,
 ];
+
+$navbar_scheme = (is_page(['services', 'contact', 'blog'])) ? 'navbar-scheme--light' : 'navbar-scheme--dark';
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -27,7 +29,7 @@ $menu_principal = [
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class($navbar_scheme); ?>>
 	<div class="barba-transition-overlay"></div>
 	<div data-barba="wrapper">
 		<?php wp_body_open(); ?>
@@ -41,7 +43,7 @@ $menu_principal = [
 								<div class="container-fluid py-1">
 
 									<!-- Logo izquierda -->
-									<a class="navbar-brand" href="<?= esc_url(get_home_url()); ?>">
+									<a class="navbar-brand" href="/home">
 										<?= syp_render_inline_logo([
 											'class' => 'brand-logo',
 											'title' => get_bloginfo('name'),
@@ -59,7 +61,7 @@ $menu_principal = [
 											</svg>
 
 										</button>
-										<a href="<?= esc_url(home_url('/contact')); ?>" class="btn btn-green ms-3 text-light">
+										<a href="<?= esc_url(home_url('/contact')); ?>" class="btn btn-green ms-3 text-light d-none d-md-block">
 											Get in touch
 										</a>
 									</div>
@@ -72,7 +74,7 @@ $menu_principal = [
 			</header>
 			<div id="navbarNav" class="collapse position-relative z-4">
 				<div class="position-fixed top-0 start-0 vw-100 vh-100 bg-primary">
-					<div class="container h-100 position-relative d-flex flex-column p-5">
+					<div class="container h-90 position-relative d-flex flex-column p-5">
 						<!-- fila superior: logo + botón cerrar -->
 						<div class="d-flex justify-content-between align-items-start pt-3">
 							<a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
@@ -89,7 +91,7 @@ $menu_principal = [
 						</div>
 
 						<!-- enlaces centrados -->
-						<div class="d-flex flex-row h-100 justify-content-between align-items-end">
+						<div class="d-flex flex-md-row flex-column h-100 justify-content-between align-items-start align-items-md-end">
 							<div class="d-flex flex-column justify-content-end h-100 ">
 								<?php
 								wp_nav_menu([
@@ -103,7 +105,7 @@ $menu_principal = [
 							</div>
 
 							<!-- botón contacto abajo-derecha -->
-							<div class="p-4">
+							<div class="p-md-4 p-0 pt-5">
 								<a href="<?= esc_url(home_url('/contact')); ?>" class="btn btn-green text-white px-4">
 									Get in touch
 								</a>

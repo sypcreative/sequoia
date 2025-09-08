@@ -1,3 +1,15 @@
+/* Questrial */
+@font-face {
+  font-family: "questrial";
+  src:
+    url("../fonts/questrial-regular.woff2") format("woff2"),
+    url("../fonts/questrial-regular.woff") format("woff"),
+    url("../fonts/questrial-regular.ttf") format("truetype"); /* fallback */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Century Gothic */
 @font-face {
   font-family: "centurygothic";
@@ -33,12 +45,4 @@
     url("./../fonts/century-gothic-bold-italic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
-}
-
-/* Tumb */
-@font-face {
-  font-family: "questrial";
-  src: url("./../fonts/questrial-regular.ttf") format("ttf");
-  font-weight: 400;
-  font-style: normal;
 }

@@ -1,0 +1,20 @@
+/* Editor-only styles for syp/blog-card */
+.syp-blog-card.is-editor {
+  outline: 1px dashed rgba(0, 0, 0, 0.1);
+  min-height: 120px;
+}
+
+.syp-blog-card__title-input .components-base-control__field,
+.syp-blog-card__excerpt-input .components-base-control__field {
+  margin: 0;
+}
+
+.syp-blog-card.is-editor .components-text-control__input,
+.syp-blog-card.is-editor textarea.components-textarea-control__input {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+}
+
+.syp-blog-card.is-editor .components-base-control + .components-base-control {
+  margin-top: 0.75rem;
+}

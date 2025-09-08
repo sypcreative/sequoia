@@ -1,0 +1,41 @@
+{
+  "apiVersion": 3,
+  "name": "syp/blog-card",
+  "title": "Blog Cards (auto)",
+  "category": "sequoia-services",
+  "icon": "id-alt",
+  "description": "Lista de cards de entradas.",
+  "style": "file:./style.css",
+  "editorStyle": "file:./editor.css",
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php",
+  "supports": {
+    "html": false,
+    "align": ["wide", "full"],
+    "color": { "background": false, "gradients": false },
+    "spacing": { "padding": true, "margin": true }
+  },
+  "attributes": {
+    "dateRange": {
+      "type": "string",
+      "enum": ["all", "last_year"],
+      "default": "all"
+    },
+    "bg": {
+      "type": "string",
+      "enum": [
+        "primary",
+        "secondary",
+        "success",
+        "danger",
+        "warning",
+        "info",
+        "light",
+        "dark"
+      ],
+      "default": "primary"
+    },
+    "excerptLength": { "type": "integer", "default": 24 },
+    "showArrow": { "type": "boolean", "default": true }
+  }
+}

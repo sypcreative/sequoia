@@ -39,3 +39,8 @@
   text-decoration: underline;
   color: inherit;
 }
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+}

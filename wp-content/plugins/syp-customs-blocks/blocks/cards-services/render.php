@@ -19,8 +19,8 @@ if (!empty($cards)) {
 ?>
 <section class="syp-cards pt-5 container">
 	<div class="row pt-5">
-		<div class="col-8">
-			<?php if ($heading): ?><h2 class="syp-cards__title fw-light"><?php echo $heading; ?></h2><?php endif; ?>
+		<div class="col-12 col-md-8">
+			<?php if ($heading): ?><h2 class="syp-cards__title fw-light h3 h-md-2"><?php echo $heading; ?></h2><?php endif; ?>
 		</div>
 		<div class="col-12">
 			<div class="row">

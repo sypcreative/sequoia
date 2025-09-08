@@ -7259,3 +7259,389 @@ Stack trace:
 [04-Sep-2025 06:37:30 UTC]   Automatic plugin updates starting...
 [04-Sep-2025 06:37:30 UTC]   Automatic plugin updates complete.
 [04-Sep-2025 06:37:30 UTC] Automatic updates complete.
+[04-Sep-2025 11:37:17 UTC] Automatic updates starting...
+[04-Sep-2025 11:37:18 UTC]   Automatic plugin updates starting...
+[04-Sep-2025 11:37:18 UTC]   Automatic plugin updates complete.
+[04-Sep-2025 11:37:19 UTC] Automatic updates complete.
+[04-Sep-2025 16:14:24 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[04-Sep-2025 16:14:26 UTC] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/hero/render.php on line 72
+[04-Sep-2025 16:14:27 UTC] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/hero/render.php on line 72
+[04-Sep-2025 16:14:27 UTC] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in /Applications/MAMP/htdocs/sequoia/wp-content/plugins/syp-customs-blocks/blocks/hero/render.php on line 72
+[04-Sep-2025 16:25:11 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[05-Sep-2025 08:32:59 UTC] Automatic updates starting...
+[05-Sep-2025 08:33:00 UTC]   Automatic plugin updates starting...
+[05-Sep-2025 08:33:00 UTC]   Automatic plugin updates complete.
+[05-Sep-2025 08:33:00 UTC] Automatic updates complete.
+[05-Sep-2025 11:57:30 UTC] Automatic updates starting...
+[05-Sep-2025 11:57:31 UTC]   Automatic plugin updates starting...
+[05-Sep-2025 11:57:31 UTC]   Automatic plugin updates complete.
+[05-Sep-2025 11:57:32 UTC] Automatic updates complete.
+[05-Sep-2025 11:57:33 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[05-Sep-2025 21:10:08 UTC] PHP Warning:  wp_update_plugins(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[05-Sep-2025 21:10:08 UTC] PHP Warning:  wp_update_themes(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[05-Sep-2025 23:30:28 UTC] PHP Warning:  get_core_checksums(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[06-Sep-2025 09:02:33 UTC] Automatic updates starting...
+[06-Sep-2025 09:02:34 UTC]   Automatic plugin updates starting...
+[06-Sep-2025 09:02:34 UTC]   Automatic plugin updates complete.
+[06-Sep-2025 09:02:35 UTC] Automatic updates complete.
+[06-Sep-2025 09:05:24 UTC] PHP Warning:  translations_api(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[06-Sep-2025 11:49:51 UTC] Automatic updates starting...
+[06-Sep-2025 11:49:52 UTC]   Automatic plugin updates starting...
+[06-Sep-2025 11:49:52 UTC]   Automatic plugin updates complete.
+[06-Sep-2025 11:49:53 UTC] Automatic updates complete.
+[06-Sep-2025 23:46:21 UTC] PHP Warning:  wp_version_check(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[07-Sep-2025 00:13:46 UTC] PHP Warning:  wp_update_plugins(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[07-Sep-2025 00:37:58 UTC] PHP Warning:  wp_update_themes(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[07-Sep-2025 12:52:18 UTC] PHP Warning:  wp_version_check(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[07-Sep-2025 12:52:18 UTC] PHP Warning:  wp_update_plugins(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[07-Sep-2025 12:52:18 UTC] PHP Warning:  wp_update_themes(): Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[07-Sep-2025 22:17:42 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[07-Sep-2025 22:29:15 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[07-Sep-2025 22:30:55 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[07-Sep-2025 22:38:09 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[07-Sep-2025 22:39:26 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926
+[07-Sep-2025 22:43:42 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[07-Sep-2025 22:43:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[07-Sep-2025 22:43:42 UTC] PHP Notice:  La función _load_textdomain_just_in_time ha sido llamada <strong>de forma incorrecta</strong>. La carga de la traducción para el dominio <code>sequoia</code> se activó demasiado pronto. Esto suele ser un indicador de que algún código del plugin o tema se ejecuta demasiado pronto. Las traducciones deberían cargarse en la acción <code>init</code> o más tarde. Por favor, ve <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 6.7.0). in /Applications/MAMP/htdocs/sequoia/wp-includes/functions.php on line 6121
+[07-Sep-2025 22:43:42 UTC] PHP Warning:  Trying to access array offset on false in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[07-Sep-2025 22:43:42 UTC] PHP Warning:  Trying to access array offset on false in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[07-Sep-2025 22:45:43 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[07-Sep-2025 22:45:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[07-Sep-2025 22:47:44 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[07-Sep-2025 22:47:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[07-Sep-2025 22:49:45 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[07-Sep-2025 22:49:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:01:20 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:01:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:01:22 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:01:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:01:32 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:01:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:02:20 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:02:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:03:33 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:03:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:04:21 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:04:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:05:34 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:05:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:06:22 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:06:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:07:35 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:07:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:08:23 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:08:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:09:36 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:09:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:10:24 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 12:10:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:40:40 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:40:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:40:51 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:40:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:42:52 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:42:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:44:53 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:44:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:46:54 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:46:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:48:55 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:48:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:50:56 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 13:50:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 15:05:29 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 15:05:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 15:05:31 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 15:05:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-enqueued.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin.php(35): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/wp-admin/post-new.php(10): require_once('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 15:06:07 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 15:06:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/template-functions.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin.php(35): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/wp-admin/post-new.php(10): require_once('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 56
+[08-Sep-2025 15:06:12 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/acf-config.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:06:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/acf-config.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:61
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin.php(35): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/wp-admin/post-new.php(10): require_once('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:06:20 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/custom-config.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:06:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/custom-config.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:61
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin.php(35): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/wp-admin/post-new.php(10): require_once('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:06:24 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/custom-post-taxonomy.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:06:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/custom-post-taxonomy.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:61
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin.php(35): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/wp-admin/post-new.php(10): require_once('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:06:28 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/ajax/ajax-config.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 60
+[08-Sep-2025 15:06:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/ajax/ajax-config.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:60
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin.php(35): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/wp-admin/post-new.php(10): require_once('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 60
+[08-Sep-2025 15:06:34 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-walker.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 60
+[08-Sep-2025 15:06:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-walker.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:60
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-admin/admin.php(35): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/wp-admin/post-new.php(10): require_once('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 60
+[08-Sep-2025 15:06:42 UTC] Automatic updates starting...
+[08-Sep-2025 15:06:42 UTC]   Automatic plugin updates starting...
+[08-Sep-2025 15:06:42 UTC]   Automatic plugin updates complete.
+[08-Sep-2025 15:06:42 UTC] Automatic updates complete.
+[08-Sep-2025 15:12:51 UTC] PHP Fatal error:  Uncaught Error: Class "PrimaryMenu_Walker_Nav_Menu" not found in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/header.php:19
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-includes/template.php(810): require_once()
+#1 /Applications/MAMP/htdocs/sequoia/wp-includes/template.php(745): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/sequoia/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/page.php(16): get_header()
+#4 /Applications/MAMP/htdocs/sequoia/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/header.php on line 19
+[08-Sep-2025 15:13:55 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-menu.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:13:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-menu.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:61
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(13): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:13:55 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-menu.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:13:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-menu.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:61
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(13): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:13:56 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-menu.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:13:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-menu.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:61
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(13): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:13:57 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-menu.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 15:13:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/inc/navs/custom-nav-menu.php' (include_path='.:/Applications/MAMP/bin/php/php8.3.14/lib/php') in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php:61
+Stack trace:
+#0 /Applications/MAMP/htdocs/sequoia/wp-settings.php(695): include()
+#1 /Applications/MAMP/htdocs/sequoia/wp-config.php(59): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sequoia/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/sequoia/wp-blog-header.php(13): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/sequoia/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/sequoia/wp-content/themes/sequoia/functions.php on line 61
+[08-Sep-2025 22:03:19 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/MAMP/htdocs/sequoia/wp-includes/class-wp-customize-widgets.php on line 926

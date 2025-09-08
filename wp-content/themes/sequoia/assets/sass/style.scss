@@ -26,8 +26,6 @@
 // Overrides
 @import "overrides/buttons";
 @import "overrides/navs";
-@import "overrides/woocommerce";
-@import "overrides/form-control";
 @import "overrides/containers";
 
 // Partials
@@ -35,20 +33,5 @@
 @import "partials/social";
 @import "partials/footer";
 
-// Blocks
-@import "blocks/contact-block";
-@import "blocks/quienes-somos-block";
-@import "blocks/ventajas-block";
-@import "blocks/quote-block";
-@import "blocks/animated-banner";
-@import "blocks/about-cards-block";
-@import "blocks/hero-nosotros-block";
-@import "blocks/hero-home-block";
-
 // Animations
-@import "animations/three";
-@import "animations/loader";
 @import "animations/lenis";
-
-// Utils
-@import "utils/categories";

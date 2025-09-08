@@ -1,22 +1,27 @@
-/* Variables */
+/* ===========================
+   TIMELINE STYLES
+   =========================== */
+
+/* Vars */
 .syp-timeline {
-  --track-row: 40px;
-  --dot: 14px;
+  --track-row: 40px; /* distancia vertical reservada para la línea */
+  --dot: 14px; /* diámetro del punto */
 }
 
-/* Contenedor */
+/* Wrapper */
 .syp-timeline {
   position: relative;
-  padding: 2rem 0 calc(var(--track-row) + 1.5rem);
+  /* Reservamos sitio abajo para la línea y la pill/label */
+  padding: 2rem 0 calc(var(--track-row) + 1.75rem);
 }
 
-/* Línea base (una sola, fija) */
+/* Línea base global (fija) */
 .syp-timeline__track {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: calc(var(--track-row) / 2 - 1px);
-  height: 2px;
+  bottom: 87px;
+  height: 1px;
   background: #202020;
   z-index: 1;
 }
@@ -24,49 +29,41 @@
 /* Swiper */
 .syp-timeline__swiper {
   overflow: visible;
-  gap: 8rem;
+  /* padding lateral para que se vea peek del 1º y último */
+  --peek-pad: calc((100vw - 500px) / 2);
+  padding-left: var(--peek-pad) !important;
+  padding-right: var(--peek-pad) !important;
 }
 .syp-timeline__swiper .swiper-wrapper {
   align-items: stretch;
 }
-
-/* Slide/Item */
+.swiper-slide {
+  width: 500px !important;
+}
+/* Slide */
 .syp-timeline__item {
-  position: relative;
+  padding-bottom: calc(var(--track-row) + 16px); /* sitio para label y dot */
 }
-/* 
-@media (max-width: 1024px) {
-  .syp-timeline__item {
-    width: 360px;
-  }
-}
-@media (max-width: 640px) {
-  .syp-timeline__item {
-    width: 86vw;
-  }
-} */
 
-/* Año grande (decorativo) */
+/* Año grande */
 .syp-timeline__year {
-  grid-row: 1;
-  font-size: clamp(3rem, 12vw, 6rem);
-  font-weight: 700;
+  font-size: 180px;
+  font-weight: 300;
+  font-family: "questrial";
   line-height: 1;
-  margin: 0 0 -2rem 0;
+  margin: 0 0 -5rem 0;
 }
 
-/* Tarjeta */
+/* Card */
 .syp-timeline__card {
-  grid-row: 1;
-  background: #b9f5b9;
+  background: rgba(185, 245, 185, 0.8); /* verde con 80% de opacidad */
   border-radius: 18px;
-  padding: 6rem 2.5rem 1.25rem;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
-  min-height: 280px;
+  padding: 6rem 4.5rem 3.25rem;
+  min-height: 280px; /* seguridad para vacíos */
+  height: 450px;
   display: flex;
   flex-direction: column;
 }
-
 .syp-timeline__head {
   margin-bottom: 0.75rem;
 }
@@ -84,7 +81,6 @@
   max-width: 60%;
   max-height: 60%;
 }
-
 .syp-timeline__title {
   font-size: 1.3rem;
   margin: 0 0 0.5rem;
@@ -103,33 +99,57 @@
   border-radius: 999px;
 }
 
-/* Punto siempre centrado en la fila inferior */
+/* Punto SIEMPRE sobre la línea */
 .syp-timeline__dot {
-  grid-row: 2;
-  justify-self: center;
-  align-self: center; /* centra justo en mitad de la fila */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(
+    var(--track-row) / 2 - var(--dot) / 2
+  ); /* misma Y que la línea */
   width: var(--dot);
   height: var(--dot);
   background: #202020;
   border-radius: 50%;
   z-index: 2;
+  margin: 0 !important; /* por si quedó un mt-* */
 }
 
-/* Flechas (opcional) */
-.syp-timeline__nav {
+/* Flechas */
+/* Zona de navegación: abajo a la derecha */
+.syp-timeline__navs {
   position: absolute;
-  top: 40%;
+  right: 20px; /* alinea con el padding del carrusel */
+  bottom: 20px; /* debajo de la línea (ajusta si quieres) */
+  display: flex;
+  gap: 0.5rem;
+  z-index: 4;
+}
+
+/* Botones; ahora son estáticos dentro del contenedor */
+.syp-timeline__nav {
+  position: static; /* no absolute */
   width: 40px;
   height: 40px;
   border-radius: 999px;
   background: #fff;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-  z-index: 3;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.syp-timeline__nav--prev {
-  left: -12px;
+.syp-timeline__nav--prev::before {
+  font-size: 22px;
+  line-height: 1;
 }
-.syp-timeline__nav--next {
-  right: -12px;
+.syp-timeline__nav--next::before {
+  font-size: 22px;
+  line-height: 1;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .syp-timeline__item {
+    width: 86vw;
+  }
 }

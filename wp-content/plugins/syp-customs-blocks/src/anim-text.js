@@ -4,6 +4,9 @@ import SplitType from "split-type";
 
 // Split de líneas + máscara por línea
 function splitLinesWithMasks(el) {
+  //   document
+  //     .getElementsByClassName(".navbar-toggle")
+  //     .onClick(console.log("holaa"));
   if (el.__split) el.__split.revert();
   const split = new SplitType(el, { types: "lines" });
   el.__split = split;

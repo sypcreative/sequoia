@@ -9,10 +9,10 @@ $theme     = !empty($attributes['theme'])     ? sanitize_html_class($attributes[
 <section class="syp-why syp-why--theme-<?php echo esc_attr($theme); ?> py-5 container">
 	<div class="row">
 
-		<div class="syp-why__lead col-12 d-flex flex-row justify-content-between">
+		<div class="syp-why__lead col-12 d-flex flex-column flex-md-row justify-content-between">
 			<?php if ($heading): ?><h2 class="syp-why__title" data-anim="text-animated"><?php echo $heading; ?></h2><?php endif; ?>
 			<?php if ($ctaText && $ctaUrl): ?>
-				<div class="btn-wrapper d-inline-flex align-items-center">
+				<div class="btn-wrapper d-none d-md-inline-flex align-items-center">
 					<a class="syp-why_btn btn btn-green text-white" href="<?php echo $ctaUrl; ?>" <?php echo $ctaTarget ? ' target="_blank" rel="noopener"' : ''; ?>>
 						<?php echo $ctaText; ?>
 					</a>
@@ -42,5 +42,13 @@ $theme     = !empty($attributes['theme'])     ? sanitize_html_class($attributes[
 			</div>
 		<?php endif; ?>
 
+		<?php if ($ctaText && $ctaUrl): ?>
+			<div class="btn-wrapper d-inline-flex d-md-none align-items-center pt-5">
+				<a class="syp-why_btn btn btn-green text-white" href="<?php echo $ctaUrl; ?>" <?php echo $ctaTarget ? ' target="_blank" rel="noopener"' : ''; ?>>
+					<?php echo $ctaText; ?>
+				</a>
+				<span class="btn btn-green text-white btn-arrow">→</span>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>

@@ -11,7 +11,7 @@ if (!empty($items)) {
 }
 
 ob_start(); ?>
-<section class="syp-pills container">
+<section class="syp-pills container pt-0 pt-md-5">
 	<div class="row">
 		<div class="syp-pills__lead">
 			<?php if ($heading): ?><h2 class="syp-pills__title"><?php echo $heading; ?></h2><?php endif; ?>

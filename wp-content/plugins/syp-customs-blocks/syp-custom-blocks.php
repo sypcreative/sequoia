@@ -24,6 +24,8 @@ add_action('init', function () {
 	}
 });
 
+
+
 /**
  * Categorías personalizadas de bloques
  */
