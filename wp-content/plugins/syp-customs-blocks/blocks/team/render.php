@@ -5,7 +5,7 @@ $people  = !empty($attributes['people']) && is_array($attributes['people']) ? $a
 
 if ($people) {
 	foreach ($people as &$p) {
-		$p = wp_parse_args($p, ['name' => '', 'role' => '', 'email' => '', 'imageUrl' => '']);
+		$p = wp_parse_args($p, ['name' => '', 'role' => '', 'email' => '', 'imageUrl' => '', 'description' => '']);
 	}
 	unset($p);
 }
@@ -23,6 +23,7 @@ ob_start(); ?>
 				<?php foreach ($people as $i => $p):
 					$name = $p['name']   ? wp_kses_post($p['name'])   : '';
 					$role = $p['role']   ? wp_kses_post($p['role'])   : '';
+					$desc = $p['description']   ? wp_kses_post($p['description'])   : '';
 					$mail = $p['email']  ? sanitize_email($p['email']) : '';
 					$img  = $p['imageUrl'] ? esc_url($p['imageUrl'])  : '';
 				?>
@@ -30,6 +31,11 @@ ob_start(); ?>
 						<?php if ($img): ?>
 							<div class="syp-person__media">
 								<img src="<?php echo $img; ?>" alt="" loading="lazy" decoding="async" />
+								<?php if ($desc): ?>
+									<div class="syp-person__description">
+										<?php echo $desc; ?>
+									</div>
+								<?php endif; ?>
 							</div>
 						<?php endif; ?>
 
@@ -43,6 +49,7 @@ ob_start(); ?>
 							<?php endif; ?>
 						</footer>
 					</article>
+
 				<?php endforeach; ?>
 			</div>
 		<?php endif; ?>

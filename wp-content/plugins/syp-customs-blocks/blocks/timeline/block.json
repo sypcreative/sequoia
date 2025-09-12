@@ -12,6 +12,7 @@
   "render": "file:./render.php",
   "supports": { "html": false, "align": false },
   "attributes": {
+    "introduction": { "type": "string", "default": "" },
     "items": {
       "type": "array",
       "default": [],

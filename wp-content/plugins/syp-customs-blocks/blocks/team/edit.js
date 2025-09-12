@@ -7,7 +7,8 @@
     MediaUploadCheck,
     BlockControls,
   } = wp.blockEditor;
-  const { ToolbarGroup, ToolbarButton, Button, TextControl } = wp.components;
+  const { ToolbarGroup, ToolbarButton, Button, TextControl, TextareaControl } =
+    wp.components;
   const { Fragment, createElement: el } = wp.element;
 
   registerBlockType("syp/team-grid", {
@@ -17,7 +18,10 @@
 
       const addPerson = () =>
         setAttributes({
-          people: [...people, { name: "", role: "", email: "", imageUrl: "" }],
+          people: [
+            ...people,
+            { name: "", role: "", email: "", imageUrl: "", description: "" },
+          ],
         });
 
       const updatePerson = (i, k, v) =>
@@ -134,6 +138,13 @@
                       placeholder: "email@empresa.com",
                       value: p.email,
                       onChange: (v) => updatePerson(i, "email", v),
+                    }),
+                    el(TextareaControl, {
+                      className: "syp-person__description-input",
+                      placeholder: "Descripción / bio corta…",
+                      value: p.description,
+                      onChange: (v) => updatePerson(i, "description", v),
+                      rows: 3,
                     })
                   ),
 

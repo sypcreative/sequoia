@@ -40,7 +40,8 @@
           "name": { "type": "string", "default": "" },
           "role": { "type": "string", "default": "" },
           "email": { "type": "string", "default": "" },
-          "imageUrl": { "type": "string", "default": "" }
+          "imageUrl": { "type": "string", "default": "" },
+          "description": { "type": "string", "default": "" }
         },
         "additionalProperties": false
       }

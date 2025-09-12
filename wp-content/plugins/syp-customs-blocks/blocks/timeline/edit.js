@@ -12,7 +12,7 @@
 
   registerBlockType("syp/timeline", {
     edit({ attributes, setAttributes }) {
-      const { items = [] } = attributes;
+      const { items = [], introduction = "" } = attributes;
       const blockProps = useBlockProps({ className: "syp-timeline editor" });
 
       const addItem = () =>
@@ -59,6 +59,18 @@
         el(
           "section",
           blockProps,
+
+          // INTRODUCCIÓN (fuera del swiper/lista)
+          el(RichText, {
+            tagName: "p",
+            className: "syp-timeline__intro",
+            placeholder:
+              "Industry experts founded Sequoia with a bold vision: to redefine the way used mobile devices move through the global supply chain. Here's how we got here:",
+            value: introduction,
+            onChange: (v) => setAttributes({ introduction: v }),
+          }),
+
+          // LISTA DE ITEMS
           el(
             "div",
             { className: "syp-timeline__list" },

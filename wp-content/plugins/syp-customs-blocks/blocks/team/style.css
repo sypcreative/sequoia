@@ -2,7 +2,6 @@
   padding: 40px 0;
 }
 .syp-team .container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -62,4 +61,31 @@
   grid-column: 1 / -1;
   text-decoration: underline;
   color: inherit;
+}
+
+.syp-person__media {
+  position: relative;
+  overflow: hidden;
+}
+
+.syp-person__description {
+  position: absolute;
+  inset: 0;
+  background: #c9f4b9; /* o $cor-green en SCSS */
+  color: black;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+}
+
+.syp-person__media:hover .syp-person__description {
+  opacity: 1;
+  visibility: visible;
 }
