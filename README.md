@@ -27,7 +27,7 @@ Se ha desarrollado un **tema personalizado en PHP**, junto con un **plugin propi
 
 ## 🧩 Estructura principal
 
-````plaintext
+```plaintext
 wp-content/
 │
 ├── themes/
@@ -45,7 +45,7 @@ wp-content/
 │       └── block.json
 │
 └── uploads/                  # Contenido multimedia subido por el cliente
-
+```
 
 ---
 
@@ -90,4 +90,5 @@ Instalación de dependencias:
 
 ```bash
 npm install
-````
+
+```
