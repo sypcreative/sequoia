@@ -62,7 +62,7 @@ wp_enqueue_script('swiper', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundl
 
 	<!-- flechas -->
 	<div class="syp-timeline__navs" aria-label="Navigation">
-		<div class="syp-timeline__nav syp-timeline__nav--prev" aria-label="Previous">←</div>
-		<div class="syp-timeline__nav syp-timeline__nav--next" aria-label="Next">→</div>
+		<div class="syp-timeline__nav syp-timeline__nav--prev fs-4" aria-label="Previous">←</div>
+		<div class="syp-timeline__nav syp-timeline__nav--next fs-4" aria-label="Next">→</div>
 	</div>
 </section>

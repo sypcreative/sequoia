@@ -36,7 +36,7 @@ $args_footer = [
 	'container'      => false, // importante: no queremos <div> envolvente
 	'menu_class'     => 'list-unstyled footer-menu d-flex flex-column align-items-lg-end m-0',
 	'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-	'link_class'     => 'enlace-footer d-block h1 fw-light text-uppercase m-0', // WP 5.7+
+	'link_class'     => 'enlace-footer d-block h1 fw-light text-uppercase m-0 text-end', // WP 5.7+
 	'fallback_cb'    => false,
 ];
 ?>

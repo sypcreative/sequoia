@@ -6,13 +6,10 @@
 .syp-timeline {
   --track-row: 40px; /* distancia vertical reservada para la línea */
   --dot: 14px; /* diámetro del punto */
-}
-
-/* Wrapper */
-.syp-timeline {
   position: relative;
   /* Reservamos sitio abajo para la línea y la pill/label */
   padding: 2rem 0 calc(var(--track-row) + 1.75rem);
+  cursor: grab;
 }
 
 /* Línea base global (fija) */
