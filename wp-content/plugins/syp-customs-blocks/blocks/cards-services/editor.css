@@ -14,7 +14,7 @@
   font-weight: 700;
 }
 
-/* Grid de cards */
+/* ===== Grid de cards ===== */
 .wp-block-syp-cards-list .syp-cards__grid {
   display: grid;
   gap: 18px;
@@ -47,14 +47,15 @@
   color: #0a0a0a;
 }
 
-/* Cabecera (título + selector estilo) */
+/* ===== Cabecera (título + selector estilo + icono) ===== */
 .wp-block-syp-cards-list .syp-card__head {
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 8px;
 }
+
 .wp-block-syp-cards-list .syp-card__title-input input {
   font-weight: 700;
   font-size: 32px;
@@ -70,12 +71,48 @@
   box-shadow: none;
   border-bottom: 2px solid #2271b1;
 }
+
 .wp-block-syp-cards-list .syp-card__variant .components-base-control__label {
   font-weight: 600;
   margin-bottom: 4px;
 }
 
-/* ===== Lista de ítems (sin bullets y sin cajas feas) ===== */
+/* ===== Campo y previsualización de icono (MediaUpload) ===== */
+.wp-block-syp-cards-list .syp-card__icon-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.wp-block-syp-cards-list .syp-card__icon-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.wp-block-syp-cards-list .syp-card__icon-preview img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+}
+
+.wp-block-syp-cards-list .syp-card__icon-button {
+  width: auto;
+  font-size: 13px;
+}
+
+.wp-block-syp-cards-list .syp-card__icon-remove {
+  padding: 0;
+  align-self: flex-start;
+  color: #b32d2e;
+  font-size: 12px;
+}
+
+/* ===== Lista de ítems ===== */
 .wp-block-syp-cards-list .syp-card__list {
   margin-top: auto;
   display: grid;
@@ -107,17 +144,17 @@
   box-shadow: none !important;
   padding: 0 !important;
   margin: 0;
-  resize: none; /* sin redimensionar */
+  resize: none;
   font-size: 18px;
   line-height: 1.45;
 }
 .wp-block-syp-cards-list .syp-card__text-input textarea:focus {
   outline: none;
   box-shadow: none;
-  border-bottom: 2px solid #2271b1 !important; /* subrayado al foco */
+  border-bottom: 2px solid #2271b1 !important;
 }
 
-/* acciones (↑ ↓ eliminar) compactas */
+/* ===== Acciones (↑ ↓ eliminar) compactas ===== */
 .wp-block-syp-cards-list .syp-card__item-actions {
   display: flex;
   gap: 6px;
@@ -128,19 +165,19 @@
   font-size: 12px;
 }
 
-/* pie (mover/eliminar card) */
+/* ===== Pie (mover/eliminar card) ===== */
 .wp-block-syp-cards-list .syp-card__foot {
   display: flex;
   gap: 8px;
   margin-top: 14px;
 }
 
-/* botón añadir item */
+/* ===== Botón añadir item ===== */
 .wp-block-syp-cards-list .syp-add {
   margin-top: 6px;
 }
 
-/* accesibilidad */
+/* ===== Accesibilidad ===== */
 .wp-block-syp-cards-list :focus {
   outline-offset: 2px;
 }

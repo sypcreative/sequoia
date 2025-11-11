@@ -37,6 +37,7 @@
         "type": "object",
         "properties": {
           "title": { "type": "string", "default": "" },
+          "iconUrl": { "type": "string", "default": "" },
           "variant": {
             "type": "string",
             "enum": ["light", "solid"],

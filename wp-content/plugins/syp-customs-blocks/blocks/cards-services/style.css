@@ -52,3 +52,8 @@
   font-size: clamp(16px, 1.2vw, 18px);
   line-height: 1.5;
 }
+
+.syp-card__icon {
+  width: 33%;
+  height: auto;
+}

@@ -87,7 +87,7 @@ $navbar_scheme = (is_page(['services', 'contact', 'blog'])) ? 'navbar-scheme--li
 							<!-- botón cerrar -->
 							<button class="btn btn-light rounded-4 px-3 py-2 shadow-0"
 								type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-								aria-label="Close menu">×</button>
+								aria-label="Close menu">CLOSE</button>
 						</div>
 
 						<!-- enlaces centrados -->

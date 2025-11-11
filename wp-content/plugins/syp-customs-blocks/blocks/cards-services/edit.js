@@ -1,6 +1,12 @@
 (function (wp) {
   const { registerBlockType } = wp.blocks;
-  const { useBlockProps, RichText, BlockControls } = wp.blockEditor;
+  const {
+    useBlockProps,
+    RichText,
+    BlockControls,
+    MediaUpload,
+    MediaUploadCheck,
+  } = wp.blockEditor || wp.editor; // fallback por si acaso
   const {
     ToolbarGroup,
     ToolbarButton,
@@ -19,14 +25,27 @@
       // helpers cards
       const addCard = () =>
         setAttributes({
-          cards: [...cards, { title: "", variant: "light", items: [] }],
+          cards: [
+            ...cards,
+            {
+              title: "",
+              iconUrl: "",
+              variant: "light",
+              items: [],
+            },
+          ],
         });
+
       const updateCard = (i, key, val) =>
         setAttributes({
           cards: cards.map((c, idx) => (idx === i ? { ...c, [key]: val } : c)),
         });
+
       const removeCard = (i) =>
-        setAttributes({ cards: cards.filter((_, idx) => idx !== i) });
+        setAttributes({
+          cards: cards.filter((_, idx) => idx !== i),
+        });
+
       const moveCard = (from, to) => {
         if (to < 0 || to >= cards.length) return;
         const next = [...cards];
@@ -38,18 +57,23 @@
       // helpers items
       const addItem = (ci) =>
         updateCard(ci, "items", [...(cards[ci].items || []), { text: "" }]);
+
       const updateItem = (ci, ii, val) =>
         updateCard(
           ci,
           "items",
-          cards[ci].items.map((it, j) => (j === ii ? { text: val } : it))
+          (cards[ci].items || []).map((it, j) =>
+            j === ii ? { text: val } : it
+          )
         );
+
       const removeItem = (ci, ii) =>
         updateCard(
           ci,
           "items",
-          cards[ci].items.filter((_, j) => j !== ii)
+          (cards[ci].items || []).filter((_, j) => j !== ii)
         );
+
       const moveItem = (ci, from, to) => {
         const list = [...(cards[ci].items || [])];
         if (to < 0 || to >= list.length) return;
@@ -62,6 +86,7 @@
         Fragment,
         null,
 
+        // Toolbar: añadir cards rápido
         el(
           BlockControls,
           null,
@@ -76,6 +101,7 @@
           )
         ),
 
+        // Layout
         el(
           "section",
           blockProps,
@@ -83,6 +109,7 @@
             "div",
             { className: "container" },
 
+            // Heading principal
             el(RichText, {
               tagName: "h2",
               className: "syp-cards__title",
@@ -93,6 +120,7 @@
               allowedFormats: [],
             }),
 
+            // Grid de cards
             el(
               "div",
               { className: "syp-cards__grid" },
@@ -104,15 +132,20 @@
                     className: `syp-card syp-card--${card.variant || "light"}`,
                   },
 
+                  // Cabecera: título + estilo + icono
                   el(
                     "div",
                     { className: "syp-card__head" },
+
+                    // Título
                     el(TextControl, {
                       className: "syp-card__title-input",
                       placeholder: "Card title…",
-                      value: card.title,
+                      value: card.title || "",
                       onChange: (v) => updateCard(i, "title", v),
                     }),
+
+                    // Select variante
                     el(SelectControl, {
                       className: "syp-card__variant",
                       label: "Estilo",
@@ -122,9 +155,74 @@
                         { label: "Dark Green", value: "solid" },
                       ],
                       onChange: (v) => updateCard(i, "variant", v),
-                    })
+                    }),
+
+                    // Selector de icono desde Medios
+                    el(
+                      "div",
+                      { className: "syp-card__icon-wrap" },
+
+                      el(
+                        "div",
+                        { className: "syp-card__icon-label" },
+                        "Icono (SVG/PNG)"
+                      ),
+
+                      card.iconUrl &&
+                        el(
+                          "div",
+                          { className: "syp-card__icon-preview" },
+                          el("img", {
+                            src: card.iconUrl,
+                            alt: "",
+                            loading: "lazy",
+                          })
+                        ),
+
+                      el(
+                        MediaUploadCheck,
+                        null,
+                        el(MediaUpload, {
+                          onSelect: (media) => {
+                            // Guarda solo la URL del icono
+                            updateCard(
+                              i,
+                              "iconUrl",
+                              media && media.url ? media.url : ""
+                            );
+                          },
+                          allowedTypes: ["image"],
+                          multiple: false,
+                          render: ({ open }) =>
+                            el(
+                              Button,
+                              {
+                                variant: "secondary",
+                                className: "syp-card__icon-button",
+                                onClick: open,
+                              },
+                              card.iconUrl
+                                ? "Cambiar icono"
+                                : "Seleccionar icono"
+                            ),
+                        })
+                      ),
+
+                      !!card.iconUrl &&
+                        el(
+                          Button,
+                          {
+                            isSmall: true,
+                            variant: "link",
+                            className: "syp-card__icon-remove",
+                            onClick: () => updateCard(i, "iconUrl", ""),
+                          },
+                          "Quitar icono"
+                        )
+                    )
                   ),
 
+                  // Lista de ítems
                   el(
                     "div",
                     { className: "syp-card__list" },
@@ -143,7 +241,7 @@
                         el(TextareaControl, {
                           className: "syp-card__text-input",
                           placeholder: "Item text…",
-                          value: it.text,
+                          value: it.text || "",
                           onChange: (v) => updateItem(i, j, v),
                         }),
                         el(
@@ -188,6 +286,7 @@
                     )
                   ),
 
+                  // Footer acciones card
                   el(
                     "div",
                     { className: "syp-card__foot" },
@@ -219,6 +318,8 @@
                   )
                 )
               ),
+
+              // Botón global añadir card
               el(
                 Button,
                 {
@@ -233,8 +334,9 @@
         )
       );
     },
+
     save() {
-      return null;
+      return null; // dynamic render en PHP
     },
   });
 })(window.wp);
